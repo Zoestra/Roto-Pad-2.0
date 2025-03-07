@@ -853,6 +853,98 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_4ms_Power-symbol:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Elektuur:C"
 			(pin_numbers
 				(hide yes)
@@ -1521,7 +1613,7 @@
 				)
 			)
 			(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch Encoders rotate similarly to potentiometers, but they re different from potentiometers in that an encoder has full rotation without limits. They output gray code so that you can tell how much and in which direction the encoder has been turned. This encoder includes an RGB LED and a push-down select switch. Part #: Top Up <a href=\"http://top-up.so-buy.com/front/bin/ptdetail.phtml?Part=EC12PLRGBSDVBF-D\">EC12PLRGBSDVBF-D</a> <h4>SparkFun Products</h4><ul><li><a href=\"https://www.sparkfun.com/products/10982\">Rotary Encoder - Illuminated (RGB)</a> (COM-10982)</li></ul>"
-				(at 0 0 0)
+				(at 0.762 -16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2268,7 +2360,7 @@
 						(type none)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -15.24 5.08 0)
 					(length 2.54)
 					(name "A"
@@ -2286,7 +2378,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -15.24 0 0)
 					(length 2.54)
 					(name "C"
@@ -2304,7 +2396,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -15.24 -5.08 0)
 					(length 2.54)
 					(name "B"
@@ -2423,12 +2515,6 @@
 		(uuid "045529f3-c7b6-4450-9041-3f0c0bd2a5bf")
 	)
 	(junction
-		(at 53.34 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e1de7b1-1455-4855-8f75-686b82811c28")
-	)
-	(junction
 		(at 120.65 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2445,6 +2531,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22325889-3eff-4f79-a643-66a94644a546")
+	)
+	(junction
+		(at 119.38 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eb60850-fd79-40e7-8338-7bfbafacdba2")
 	)
 	(junction
 		(at 176.53 25.4)
@@ -2465,22 +2557,16 @@
 		(uuid "636ce010-1266-48b9-97dc-f717b1ce2d24")
 	)
 	(junction
-		(at 53.34 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "671b04fe-3da9-4a06-8bf9-daf1de52e643")
-	)
-	(junction
 		(at 55.88 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7423da8b-9f07-421b-baa3-ae1f17447dca")
 	)
 	(junction
-		(at 53.34 60.96)
+		(at 78.74 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "84aa0ff9-5d62-4619-8f1a-798a75859aef")
+		(uuid "8bf1605e-3ec5-4b15-a6bd-479c4e0275a3")
 	)
 	(junction
 		(at 176.53 63.5)
@@ -2493,12 +2579,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b03e5418-72b7-40a5-a841-e0da5e96827f")
-	)
-	(junction
-		(at 53.34 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba325572-3778-4c01-9228-82059d5fa0ef")
 	)
 	(junction
 		(at 176.53 73.66)
@@ -2536,16 +2616,73 @@
 		(color 0 0 0 0)
 		(uuid "fd038cf8-4aa0-4e9d-aa41-fd08cb58e75e")
 	)
-	(wire
-		(pts
-			(xy 41.91 71.12) (xy 53.34 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 204 102 0 1)
-		)
-		(uuid "07a81cf5-5d98-401b-a440-4aaf3641569a")
+	(no_connect
+		(at 81.28 86.36)
+		(uuid "1ac31bc7-dbe2-433c-ac59-a738b92b0832")
+	)
+	(no_connect
+		(at 96.52 40.64)
+		(uuid "3c48c046-ec73-430c-89b7-fc4d61373cc2")
+	)
+	(no_connect
+		(at 96.52 35.56)
+		(uuid "40945f0c-a96d-40b1-a373-e1c76864ba04")
+	)
+	(no_connect
+		(at 60.96 71.12)
+		(uuid "563e6db9-b968-4c80-8efe-bfbc8f64144b")
+	)
+	(no_connect
+		(at 96.52 38.1)
+		(uuid "583f9ff3-12d1-46c0-8caa-ebd8648e6702")
+	)
+	(no_connect
+		(at 96.52 48.26)
+		(uuid "588ee7ca-2f60-44ef-811e-d8045e871d05")
+	)
+	(no_connect
+		(at 96.52 45.72)
+		(uuid "64f4e3f8-72e2-40b8-ad72-0cd750fcbc71")
+	)
+	(no_connect
+		(at 60.96 66.04)
+		(uuid "79daf092-d0c2-4d12-81c8-c06d8847925f")
+	)
+	(no_connect
+		(at 60.96 58.42)
+		(uuid "a0c960cd-860e-424b-9236-82e3faef1bb1")
+	)
+	(no_connect
+		(at 96.52 53.34)
+		(uuid "acd8efce-65ba-400b-9a49-557cf8d6c54c")
+	)
+	(no_connect
+		(at 60.96 81.28)
+		(uuid "b11320b7-0f28-49cd-b625-64d20c2ca88a")
+	)
+	(no_connect
+		(at 76.2 86.36)
+		(uuid "c38de78f-276c-47f6-8c9e-e77b97894d8a")
+	)
+	(no_connect
+		(at 60.96 68.58)
+		(uuid "c944f844-c046-47de-afa6-f61434e8d729")
+	)
+	(no_connect
+		(at 96.52 43.18)
+		(uuid "cdece65a-4d02-4e92-a878-bbb5dd1b33b4")
+	)
+	(no_connect
+		(at 96.52 58.42)
+		(uuid "d6e33eba-fb3d-415f-8405-746795139cf2")
+	)
+	(no_connect
+		(at 96.52 55.88)
+		(uuid "fa08c7ab-c756-4c99-a96e-bf30377f2131")
+	)
+	(no_connect
+		(at 60.96 60.96)
+		(uuid "fa586602-8684-4353-b8fe-653424fb6b82")
 	)
 	(wire
 		(pts
@@ -2581,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 25.4) (xy 176.53 25.4)
+			(xy 114.3 25.4) (xy 119.38 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2653,17 +2790,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 66.04) (xy 60.96 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 204 102 0 1)
-		)
-		(uuid "23e6eea3-194f-4474-83a6-d1153755980f")
-	)
-	(wire
-		(pts
 			(xy 120.65 38.1) (xy 129.54 38.1)
 		)
 		(stroke
@@ -2728,17 +2854,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 38.1) (xy 120.65 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 132 0 1)
-		)
-		(uuid "4ab62f72-8a7b-40f0-947a-33b4a22ea759")
-	)
-	(wire
-		(pts
 			(xy 55.88 38.1) (xy 60.96 38.1)
 		)
 		(stroke
@@ -2781,18 +2896,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 71.12) (xy 53.34 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 204 102 0 1)
-		)
-		(uuid "5d1b7551-7a34-4449-9781-795398374843")
-	)
-	(wire
-		(pts
-			(xy 120.65 91.44) (xy 55.88 91.44)
+			(xy 120.65 91.44) (xy 78.74 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2842,17 +2946,6 @@
 			(color 194 0 0 1)
 		)
 		(uuid "7396dea7-0230-47e0-9497-11fbdc8773d3")
-	)
-	(wire
-		(pts
-			(xy 53.34 66.04) (xy 53.34 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 204 102 0 1)
-		)
-		(uuid "7707191d-707d-47ba-a875-894a020b1bba")
 	)
 	(wire
 		(pts
@@ -2961,17 +3054,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 58.42) (xy 60.96 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 204 102 0 1)
-		)
-		(uuid "9c22e72c-c5fe-418a-a259-cd93f53e75e4")
-	)
-	(wire
-		(pts
 			(xy 34.29 53.34) (xy 60.96 53.34)
 		)
 		(stroke
@@ -2989,6 +3071,17 @@
 			(type default)
 		)
 		(uuid "a9583f1e-6e42-42c2-911f-1940adc63522")
+	)
+	(wire
+		(pts
+			(xy 120.65 68.58) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "a958ce87-c05b-4c2d-8095-06a6e99362f7")
 	)
 	(wire
 		(pts
@@ -3043,17 +3136,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 68.58) (xy 53.34 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 204 102 0 1)
-		)
-		(uuid "b2443c51-e9e0-4a40-bfe9-4ebe6fa9fbc8")
-	)
-	(wire
-		(pts
 			(xy 120.65 50.8) (xy 120.65 63.5)
 		)
 		(stroke
@@ -3087,17 +3169,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 71.12) (xy 53.34 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 204 102 0 1)
-		)
-		(uuid "b94a4370-8a4b-453c-90f1-81797b74b691")
-	)
-	(wire
-		(pts
 			(xy 34.29 45.72) (xy 60.96 45.72)
 		)
 		(stroke
@@ -3115,17 +3186,6 @@
 			(type default)
 		)
 		(uuid "c3296468-71df-43e2-ad10-359e78a9cac9")
-	)
-	(wire
-		(pts
-			(xy 120.65 68.58) (xy 148.59 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 132 0 1)
-		)
-		(uuid "c903d878-5212-439c-9ce9-937085694bcd")
 	)
 	(wire
 		(pts
@@ -3277,6 +3337,17 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 91.44) (xy 55.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "de9e2417-f46c-498b-89bf-de564b57cbbd")
+	)
+	(wire
+		(pts
 			(xy 215.9 71.12) (xy 208.28 71.12)
 		)
 		(stroke
@@ -3307,25 +3378,25 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 66.04) (xy 53.34 68.58)
+			(xy 119.38 25.4) (xy 176.53 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 204 102 0 1)
+			(color 194 0 0 1)
 		)
-		(uuid "e3fa611f-a4f7-40e4-8e8f-1e8bb5ceca19")
+		(uuid "e5e6b77b-196a-4095-bfb0-f4d3cf840786")
 	)
 	(wire
 		(pts
-			(xy 53.34 60.96) (xy 53.34 58.42)
+			(xy 78.74 86.36) (xy 78.74 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 204 102 0 1)
+			(color 0 132 0 1)
 		)
-		(uuid "ec537309-8473-43a5-bafc-3a472349cbe6")
+		(uuid "ecbe5239-1594-44b5-9ef0-643b2073cd67")
 	)
 	(wire
 		(pts
@@ -3348,17 +3419,6 @@
 			(color 0 132 0 1)
 		)
 		(uuid "f64692da-e16a-4f2c-baff-f376101610a2")
-	)
-	(wire
-		(pts
-			(xy 53.34 60.96) (xy 60.96 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 204 102 0 1)
-		)
-		(uuid "f8616d02-78ff-4241-8166-d25d0212f4fe")
 	)
 	(wire
 		(pts
@@ -3415,28 +3475,6 @@
 		(uuid "2aec9168-4623-4486-a663-c08a9d29d9a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.6439 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED Display"
-		(shape passive)
-		(at 41.91 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "47619374-fe13-4e15-9fe2-ab394a1b4062")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.7877 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,7 +3796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
 			(at 176.53 58.42 0)
 			(effects
 				(font
@@ -4035,7 +4073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
 			(at 176.53 78.74 0)
 			(effects
 				(font
@@ -4091,6 +4129,73 @@
 			(project "Roto-Pad-2.0"
 				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
+		(at 120.65 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f0fb786-03f9-4018-8c5c-a657b184a61f")
+		(property "Reference" "#FLG02"
+			(at 118.745 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 116.84 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1951e18e-340b-4405-a866-a9d6718cba5b")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -4336,100 +4441,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Switches:ENCODER-RGB-SWITCH")
-		(at 193.04 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aab30536-6361-42b2-a3e3-6eb6624496ca")
-		(property "Reference" "E2"
-			(at 193.04 50.8 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Value" "ENCODER-RGB-SWITCH"
-			(at 193.04 53.34 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "Custom:Led Encoder"
-			(at 193.04 54.61 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch Encoders rotate similarly to potentiometers, but they re different from potentiometers in that an encoder has full rotation without limits. They output gray code so that you can tell how much and in which direction the encoder has been turned. This encoder includes an RGB LED and a push-down select switch. Part #: Top Up <a href=\"http://top-up.so-buy.com/front/bin/ptdetail.phtml?Part=EC12PLRGBSDVBF-D\">EC12PLRGBSDVBF-D</a> <h4>SparkFun Products</h4><ul><li><a href=\"https://www.sparkfun.com/products/10982\">Rotary Encoder - Illuminated (RGB)</a> (COM-10982)</li></ul>"
-			(at 193.04 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "RES-10859"
-			(at 193.04 55.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "a689c64e-8567-4f72-8629-abb7b5f3fc24")
-		)
-		(pin "1"
-			(uuid "e1f87f14-3e84-4ec2-90b9-53865c8f7bc6")
-		)
-		(pin "5"
-			(uuid "b0d27a13-fb7d-4d26-b4c9-b4a77509b99c")
-		)
-		(pin "B"
-			(uuid "9d5567ad-6a64-4cfd-a5e7-7b03fd361b6c")
-		)
-		(pin "2"
-			(uuid "fbf386d4-a53f-4f44-9c4f-263fe509ff77")
-		)
-		(pin "C"
-			(uuid "faa4baad-8fc4-47a9-951d-4c97dd5e23f3")
-		)
-		(pin "A"
-			(uuid "5e4a5fff-8f20-41d1-b360-52e77d913a6e")
-		)
-		(pin "4"
-			(uuid "b54efe65-870e-44c6-86ff-32131b496843")
-		)
-		(instances
-			(project "Roto-Pad-2.0"
-				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355"
-					(reference "E2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 163.83 63.5 90)
 		(unit 1)
@@ -4454,7 +4465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
 			(at 163.83 63.5 0)
 			(effects
 				(font
@@ -4583,6 +4594,166 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
+		(at 119.38 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdc2e3a3-1c61-4ac4-820d-f27c47b481cb")
+		(property "Reference" "#FLG01"
+			(at 119.38 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 119.38 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39d29ad3-1e40-4a94-bc36-d11edaa5e6b7")
+		)
+		(instances
+			(project ""
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Switches:ENCODER-RGB-SWITCH")
+		(at 193.04 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3a34fdc-8dc7-4be6-8feb-76301c9701de")
+		(property "Reference" "S1"
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "ENCODER-RGB-SWITCH"
+			(at 193.04 53.34 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" "Custom:Led Encoder"
+			(at 193.04 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch Encoders rotate similarly to potentiometers, but they re different from potentiometers in that an encoder has full rotation without limits. They output gray code so that you can tell how much and in which direction the encoder has been turned. This encoder includes an RGB LED and a push-down select switch. Part #: Top Up <a href=\"http://top-up.so-buy.com/front/bin/ptdetail.phtml?Part=EC12PLRGBSDVBF-D\">EC12PLRGBSDVBF-D</a> <h4>SparkFun Products</h4><ul><li><a href=\"https://www.sparkfun.com/products/10982\">Rotary Encoder - Illuminated (RGB)</a> (COM-10982)</li></ul>"
+			(at 193.802 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "RES-10859"
+			(at 193.04 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f898dbe2-bf8b-4f11-bc7f-02426abac01e")
+		)
+		(pin "B"
+			(uuid "7e44c7dd-d4a5-4d04-b57c-faa6ab0d45c8")
+		)
+		(pin "5"
+			(uuid "1c29945d-b6e5-4ba8-a201-44f84b4365ef")
+		)
+		(pin "A"
+			(uuid "8edf1e38-1ab7-45e2-a13b-73af24b96fb8")
+		)
+		(pin "C"
+			(uuid "5c596be8-faf9-41eb-9c18-10126f13ed34")
+		)
+		(pin "1"
+			(uuid "7068cb48-1571-40e4-92c1-373d435cd1a3")
+		)
+		(pin "2"
+			(uuid "2b69a1de-4a6e-49c3-b45f-e0b2756c2192")
+		)
+		(pin "4"
+			(uuid "46bc0714-309f-45a7-b870-15a3d0d60625")
+		)
+		(instances
+			(project ""
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 163.83 73.66 90)
 		(unit 1)
@@ -4607,7 +4778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
 			(at 163.83 73.66 0)
 			(effects
 				(font
@@ -4853,7 +5024,7 @@
 				(justify left)
 			)
 		)
-		(pin "GND" passive
+		(pin "GND" input
 			(at 129.54 38.1 180)
 			(uuid "d4fe6c50-219a-40f5-b41d-944548ab2aea")
 			(effects
@@ -4863,7 +5034,7 @@
 				(justify left)
 			)
 		)
-		(pin "5v" passive
+		(pin "5v" input
 			(at 129.54 34.29 180)
 			(uuid "3a39dfb5-0130-4545-a97a-017d1fa96860")
 			(effects
