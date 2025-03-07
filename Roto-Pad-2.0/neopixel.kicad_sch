@@ -1,0 +1,6026 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bc57a516-f088-4965-b3ed-bdac6067e5d2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "SparkFun-DiscreteSemi:SK6812"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED41"
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6812"
+				(at -2.54 6.35 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+				(at -2.54 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812_0_0"
+				(text "RGB"
+					(at -2.794 0.889 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -3.302 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.524) (xy -3.302 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 3.556) (xy -3.81 2.54) (xy -3.81 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 2.54) (xy -3.81 1.524) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 4.064) (xy -1.397 1.524) (xy -1.397 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 3.556) (xy -2.413 3.556) (xy -1.397 1.524) (xy -0.381 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 1.524) (xy -2.413 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SK6812_1_1"
+				(pin power_in line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 3.81 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SparkFun-PowerSymbols:GND2"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND2"
+				(at -2.286 -6.35 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "XXX-00000"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PROD_ID:XXX-00000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND2_1_0"
+				(polyline
+					(pts
+						(xy -2.032 -2.54) (xy 2.032 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.302) (xy 1.27 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -4.064) (xy 0.508 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 133.35 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "059510b6-a9c8-44ec-8b88-2866480ecfb7")
+	)
+	(junction
+		(at 114.3 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fda5262-0e0b-4ac6-a0eb-2f1c676c236b")
+	)
+	(junction
+		(at 76.2 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b604b16-9a5c-4ac2-a772-a8332462d754")
+	)
+	(junction
+		(at 209.55 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30138453-f840-453c-91a4-ebf209bc2011")
+	)
+	(junction
+		(at 152.4 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "301b3ee7-8e37-48ef-9c0d-3b2e000755d6")
+	)
+	(junction
+		(at 133.35 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30335605-4ce9-4027-ab77-e269ef998805")
+	)
+	(junction
+		(at 152.4 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "340912b3-1c00-48a5-9659-0c2969aa93c0")
+	)
+	(junction
+		(at 57.15 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3de29d7e-ec5c-43e6-b1b6-befb43d26097")
+	)
+	(junction
+		(at 171.45 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46abeba4-6185-4c79-914a-e7b58dbae5ea")
+	)
+	(junction
+		(at 171.45 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fc9d855-7aa7-4490-ba9a-67d200cfe948")
+	)
+	(junction
+		(at 190.5 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "627608e7-c172-41c0-8e9c-1cc3ed03d403")
+	)
+	(junction
+		(at 114.3 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6704c918-e663-44fd-901e-6a2a3fa35720")
+	)
+	(junction
+		(at 209.55 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6984d3e2-0317-464a-81f8-1a6ba24c34f0")
+	)
+	(junction
+		(at 76.2 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b7545c0-280f-45ab-ab21-ff8f8986ee86")
+	)
+	(junction
+		(at 228.6 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d10bf23-b0b0-48ea-bb9d-58404766f3e4")
+	)
+	(junction
+		(at 57.15 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d1fe8b1-761a-41ca-9014-336ac10d4244")
+	)
+	(junction
+		(at 95.25 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70cfbc59-21cb-46e3-82ee-b2499b25b0d4")
+	)
+	(junction
+		(at 133.35 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "839aed80-756b-4ba4-9ed7-49cb5a1e1c56")
+	)
+	(junction
+		(at 114.3 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83c9f1d2-4b08-416c-9835-d52d610d41d1")
+	)
+	(junction
+		(at 152.4 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "907a970d-875f-484b-8c8d-1e77dfcc3602")
+	)
+	(junction
+		(at 171.45 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adb4a226-aef9-461f-977a-fa30404cca54")
+	)
+	(junction
+		(at 228.6 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5025ac2-6b1d-4ca8-95ec-794861e3b97f")
+	)
+	(junction
+		(at 76.2 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c565e436-c9a9-4db9-bd18-1b11a7fa50bf")
+	)
+	(junction
+		(at 95.25 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c91dc1b4-6650-4c93-a01e-63e4e9d90545")
+	)
+	(junction
+		(at 190.5 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc86d766-18c4-47c0-b2a0-f3b599fdffb4")
+	)
+	(junction
+		(at 190.5 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1a2abd3-c4d5-4488-8686-f7be4572511f")
+	)
+	(junction
+		(at 209.55 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee483ad0-448f-4bb3-b519-b253d932b5b0")
+	)
+	(junction
+		(at 228.6 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0e90dc3-28db-40ef-b847-fae5efbbddec")
+	)
+	(junction
+		(at 95.25 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc79c736-f6bb-484f-b7f4-ad4042b9f413")
+	)
+	(wire
+		(pts
+			(xy 228.6 114.3) (xy 247.65 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "05119844-3478-4cf4-bb69-882020f8c193")
+	)
+	(wire
+		(pts
+			(xy 95.25 76.2) (xy 95.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "0d0d626c-3640-4652-88ab-a2b0a9803c97")
+	)
+	(wire
+		(pts
+			(xy 190.5 38.1) (xy 190.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "0d4d1ad0-1208-4928-ba97-ccbcec335d23")
+	)
+	(wire
+		(pts
+			(xy 228.6 38.1) (xy 247.65 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "0d9d6333-c717-47d5-940d-89acb73a7242")
+	)
+	(wire
+		(pts
+			(xy 163.83 88.9) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1121686a-d810-4a81-8cd0-c511a9185802")
+	)
+	(wire
+		(pts
+			(xy 87.63 88.9) (xy 95.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1375d7d7-95ee-496c-94ee-d44c7b49dfc7")
+	)
+	(wire
+		(pts
+			(xy 95.25 38.1) (xy 114.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "15406b94-7cae-499c-a529-97a1c8f53614")
+	)
+	(wire
+		(pts
+			(xy 171.45 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "16fb6401-7773-4c6f-9331-dbd2b03c057d")
+	)
+	(wire
+		(pts
+			(xy 201.93 50.8) (xy 209.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170c5048-4206-40c3-864e-900d0948205c")
+	)
+	(wire
+		(pts
+			(xy 247.65 76.2) (xy 247.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "18647ac8-9a49-4ab5-88dc-d246a5118e33")
+	)
+	(wire
+		(pts
+			(xy 144.78 50.8) (xy 152.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189c1b4a-4317-4743-968f-3cff22f88094")
+	)
+	(wire
+		(pts
+			(xy 247.65 114.3) (xy 247.65 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1b39a28b-653e-470b-92cf-9d2497c590ef")
+	)
+	(wire
+		(pts
+			(xy 57.15 38.1) (xy 76.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1df46b31-acd0-4046-86f1-9d1f5fd78b71")
+	)
+	(wire
+		(pts
+			(xy 209.55 38.1) (xy 209.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "20ce8077-62b4-4bc6-b71e-6f9de4fad447")
+	)
+	(wire
+		(pts
+			(xy 201.93 88.9) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238933c5-d9d6-42ff-81e6-9af3cdc07392")
+	)
+	(wire
+		(pts
+			(xy 190.5 114.3) (xy 190.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "23b9bd6f-a01a-4372-a2bf-3ce333430254")
+	)
+	(wire
+		(pts
+			(xy 163.83 127) (xy 171.45 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b54c256-610b-4c84-91b6-4d2a46b1406d")
+	)
+	(wire
+		(pts
+			(xy 133.35 76.2) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2c278ddd-e757-42ea-b505-c678b0d27898")
+	)
+	(wire
+		(pts
+			(xy 57.15 76.2) (xy 57.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2d76b948-1e58-494a-921c-9433ead7f265")
+	)
+	(wire
+		(pts
+			(xy 133.35 114.3) (xy 133.35 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2e63cd92-dbdc-4324-a7b2-7275cd365bcb")
+	)
+	(wire
+		(pts
+			(xy 133.35 38.1) (xy 133.35 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "35b8aa57-420f-4d2c-bc17-5862dd79297d")
+	)
+	(wire
+		(pts
+			(xy 201.93 127) (xy 209.55 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bea8c25-40d7-4a85-9b32-4ec726d3edbe")
+	)
+	(wire
+		(pts
+			(xy 76.2 85.09) (xy 76.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "3e7223cd-789c-4b03-9794-9309eb73a840")
+	)
+	(wire
+		(pts
+			(xy 182.88 88.9) (xy 190.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee07b92-f10c-4f12-b471-a89508e7dd52")
+	)
+	(wire
+		(pts
+			(xy 163.83 50.8) (xy 171.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eea3a64-e23d-407e-95d6-86ac620c5c5d")
+	)
+	(wire
+		(pts
+			(xy 247.65 38.1) (xy 247.65 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "41a162e6-108d-4d12-915c-225c577d9f20")
+	)
+	(wire
+		(pts
+			(xy 228.6 38.1) (xy 228.6 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "46c6b5e2-e206-479a-9c92-4834aa492786")
+	)
+	(wire
+		(pts
+			(xy 259.08 106.68) (xy 69.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4735486f-0c94-4205-9222-3bdb4bfc858e")
+	)
+	(wire
+		(pts
+			(xy 76.2 46.99) (xy 76.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4d3a91b5-8dd2-4490-b2dc-1b3aa3200b78")
+	)
+	(wire
+		(pts
+			(xy 171.45 114.3) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "50ad16dc-c472-439c-816d-7056f56aec04")
+	)
+	(wire
+		(pts
+			(xy 171.45 76.2) (xy 171.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "50c4a971-86e3-44f4-8aea-f25383be1a66")
+	)
+	(wire
+		(pts
+			(xy 171.45 38.1) (xy 190.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "527b0f7f-5277-4a2f-9207-f933f4d8517c")
+	)
+	(wire
+		(pts
+			(xy 114.3 38.1) (xy 133.35 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5672477d-f2ec-4dc5-ae34-897804895df8")
+	)
+	(wire
+		(pts
+			(xy 38.1 38.1) (xy 57.15 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "584d457f-d529-410d-81b9-4dc24b00b29e")
+	)
+	(wire
+		(pts
+			(xy 87.63 127) (xy 95.25 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587199e8-4b4e-4047-9762-5e90ff7bde7c")
+	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6dde13-fb40-4c46-b645-5f932261d2fc")
+	)
+	(wire
+		(pts
+			(xy 228.6 76.2) (xy 247.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5d803807-171d-4721-adbc-ae4cd65e9eea")
+	)
+	(wire
+		(pts
+			(xy 228.6 114.3) (xy 228.6 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5d9392b9-be25-4188-b6fa-ab88334b88d0")
+	)
+	(wire
+		(pts
+			(xy 152.4 38.1) (xy 152.4 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5df2baf2-4d01-411d-bf0d-1d314dbdd9ae")
+	)
+	(wire
+		(pts
+			(xy 133.35 76.2) (xy 133.35 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5e4ed3ab-9d23-4563-83bb-a9150d405b7f")
+	)
+	(wire
+		(pts
+			(xy 95.25 114.3) (xy 95.25 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5fc576b6-5e96-4518-8c4e-4ac7aef416b1")
+	)
+	(wire
+		(pts
+			(xy 240.03 50.8) (xy 247.65 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4f2d7f-5644-4f11-968b-1b4b0443c0fe")
+	)
+	(wire
+		(pts
+			(xy 152.4 114.3) (xy 152.4 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "6e5c8855-fcf3-45ef-9e0a-cf16f3b8fcb5")
+	)
+	(wire
+		(pts
+			(xy 69.85 63.5) (xy 69.85 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701552f4-ef6a-4941-9429-f8b1b0841e58")
+	)
+	(wire
+		(pts
+			(xy 240.03 88.9) (xy 247.65 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732a776a-081c-4635-98d4-253c32f455c7")
+	)
+	(wire
+		(pts
+			(xy 95.25 38.1) (xy 95.25 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "75d7f22a-390e-497f-8fc3-54533d93ede0")
+	)
+	(wire
+		(pts
+			(xy 106.68 127) (xy 114.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2675e4-43d1-4038-8485-f2dc407e40c7")
+	)
+	(wire
+		(pts
+			(xy 228.6 76.2) (xy 228.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "80af80f4-fd8c-4457-8929-e395bb777545")
+	)
+	(wire
+		(pts
+			(xy 209.55 114.3) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "89c8d088-9127-4e41-a1bd-be4e30b25112")
+	)
+	(wire
+		(pts
+			(xy 220.98 127) (xy 228.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9dd2bc-0abc-48cf-b4af-de9521a79017")
+	)
+	(wire
+		(pts
+			(xy 259.08 88.9) (xy 259.08 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae0f94a-819b-4364-b2b7-be7da0b448bf")
+	)
+	(wire
+		(pts
+			(xy 76.2 114.3) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9072648f-184f-4753-8ed0-5a8f667802d2")
+	)
+	(wire
+		(pts
+			(xy 152.4 76.2) (xy 171.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "97f4350c-c136-4293-b5f2-ca16dd1536cf")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 95.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9b2b7bb5-e684-4f21-8e9b-998697799a90")
+	)
+	(wire
+		(pts
+			(xy 209.55 114.3) (xy 209.55 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9d858865-e37f-4744-878b-6173787ad209")
+	)
+	(wire
+		(pts
+			(xy 171.45 38.1) (xy 171.45 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a0198341-97a5-4260-8ce5-8b91f57e3260")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a01bd3c4-0756-446b-b22c-c47cbe4c5402")
+	)
+	(wire
+		(pts
+			(xy 114.3 38.1) (xy 114.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a157cea2-2de9-44a3-b23e-a20101198062")
+	)
+	(wire
+		(pts
+			(xy 259.08 50.8) (xy 259.08 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5333646-59e9-40bf-8262-5e1ff6836afc")
+	)
+	(wire
+		(pts
+			(xy 152.4 114.3) (xy 171.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ad33e343-908e-4381-ae26-ce2cd738a147")
+	)
+	(wire
+		(pts
+			(xy 190.5 76.2) (xy 190.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ae1eac23-6ff5-41b5-aabe-65d8c2594339")
+	)
+	(wire
+		(pts
+			(xy 259.08 63.5) (xy 69.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b117ecd9-a4db-47a2-a479-51b6b19386c5")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 114.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b469ee64-d427-4cad-b647-278dfd77d5c6")
+	)
+	(wire
+		(pts
+			(xy 38.1 50.8) (xy 76.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b556fb82-84e8-45c2-9d15-9c09dab53fdd")
+	)
+	(wire
+		(pts
+			(xy 76.2 38.1) (xy 95.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b6fdc470-66b4-463f-a9a7-77513613b559")
+	)
+	(wire
+		(pts
+			(xy 171.45 114.3) (xy 171.45 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b773a392-47be-4f88-b3d8-2543b8ce127b")
+	)
+	(wire
+		(pts
+			(xy 209.55 76.2) (xy 209.55 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b93a4d6b-c17f-4c10-8b0c-fa837af9eca2")
+	)
+	(wire
+		(pts
+			(xy 220.98 88.9) (xy 228.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a083fd-d923-4f8f-879b-ca47ed958ada")
+	)
+	(wire
+		(pts
+			(xy 240.03 127) (xy 247.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcfda16a-e849-436a-bc23-1f1e5a03d06d")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd04ccef-5c96-4e51-9b70-a5f0a3ae52ba")
+	)
+	(wire
+		(pts
+			(xy 152.4 38.1) (xy 171.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "c27bb25c-1ecb-444c-95c7-44273667dd04")
+	)
+	(wire
+		(pts
+			(xy 209.55 38.1) (xy 228.6 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "c2cf5880-a74f-4a31-bf8a-23687d646844")
+	)
+	(wire
+		(pts
+			(xy 190.5 76.2) (xy 209.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "c3e0e5b6-53e9-45e6-9e14-9a093b3bd699")
+	)
+	(wire
+		(pts
+			(xy 69.85 106.68) (xy 69.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46ace52-8599-4ad9-b701-2da9ada66ad1")
+	)
+	(wire
+		(pts
+			(xy 57.15 114.3) (xy 76.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "c571eb15-5336-4d85-851b-2d280ce9f93b")
+	)
+	(wire
+		(pts
+			(xy 106.68 50.8) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7774b54-67a7-46b0-a664-eb7efb9b1369")
+	)
+	(wire
+		(pts
+			(xy 69.85 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c896670b-e41b-4783-9850-d03a349e2e9a")
+	)
+	(wire
+		(pts
+			(xy 125.73 50.8) (xy 133.35 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c62d18-9bb5-4b90-b0fc-bb727820f2e8")
+	)
+	(wire
+		(pts
+			(xy 125.73 127) (xy 133.35 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb299057-e5cb-4378-9338-3b6475238104")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 133.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d13d42d0-aa7a-4a22-a671-0cfb119d6650")
+	)
+	(wire
+		(pts
+			(xy 133.35 114.3) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d2f1dd3e-938a-4ab2-a147-b664535dbce9")
+	)
+	(wire
+		(pts
+			(xy 76.2 123.19) (xy 76.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d381957a-c376-4c88-9ed1-b8a8f15f4d4e")
+	)
+	(wire
+		(pts
+			(xy 57.15 38.1) (xy 57.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d40f1f7d-8594-4c3a-8a82-509606cc8f2b")
+	)
+	(wire
+		(pts
+			(xy 152.4 76.2) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d5e0159e-5d9b-42ee-9e3c-299a77d6df0a")
+	)
+	(wire
+		(pts
+			(xy 182.88 50.8) (xy 190.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76fba27-0db9-4125-aed5-d06b45b3fbf8")
+	)
+	(wire
+		(pts
+			(xy 182.88 127) (xy 190.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3919a6-6159-4361-af79-48bab32250a8")
+	)
+	(wire
+		(pts
+			(xy 133.35 38.1) (xy 152.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "dc43ed22-e6ab-4ee4-9fda-f82d910c603d")
+	)
+	(wire
+		(pts
+			(xy 144.78 127) (xy 152.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddce52c0-07fa-49ea-a96e-8a92cbcac648")
+	)
+	(wire
+		(pts
+			(xy 190.5 38.1) (xy 209.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ddd2296c-6815-4506-a10e-e36e2c0185af")
+	)
+	(wire
+		(pts
+			(xy 69.85 127) (xy 76.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15c3cbb-27f5-4222-a1fa-49108161f66d")
+	)
+	(wire
+		(pts
+			(xy 95.25 114.3) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "e2e596e7-3ea1-4c67-9353-4d8f034b7b71")
+	)
+	(wire
+		(pts
+			(xy 209.55 76.2) (xy 228.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "e9d6ea80-bef6-412f-b17d-b91092f131ab")
+	)
+	(wire
+		(pts
+			(xy 220.98 50.8) (xy 228.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebffd453-89c7-44a6-b19d-5b420034b8f8")
+	)
+	(wire
+		(pts
+			(xy 87.63 50.8) (xy 95.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec79d34a-f3f0-4a6f-a935-b023017b7c4f")
+	)
+	(wire
+		(pts
+			(xy 190.5 114.3) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f04b9d9c-c51c-4047-977c-0de68863fc7f")
+	)
+	(wire
+		(pts
+			(xy 57.15 76.2) (xy 76.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f16aef1b-76f6-4f8b-80df-a0ceb99d806d")
+	)
+	(wire
+		(pts
+			(xy 95.25 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f7557f5e-50a7-49f3-945f-a232c32e1774")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 114.3 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "fdb8a3d9-808b-474c-9c95-0c9c57e6e185")
+	)
+	(wire
+		(pts
+			(xy 125.73 88.9) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2721c9-0bd3-4039-8e4b-d7ec6a96ba25")
+	)
+	(hierarchical_label "5v"
+		(shape passive)
+		(at 38.1 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d097d2a-8229-42da-997a-45d99ee13844")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 38.1 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3bc95c42-c722-483c-b7b1-de9a21eba86c")
+	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 38.1 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb15bf75-1224-4ba9-b141-7bdcac55007b")
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 106.68 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c8414ad-88bc-49ee-a83e-bc7613a2d7a6")
+		(property "Reference" "#GND032"
+			(at 105.41 121.92 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 108.458 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 106.68 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "f34e112c-f2ef-4e1f-98a5-70df66a2f3c2")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 236.22 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10d36e63-eb15-488d-ba17-fcd38444b817")
+		(property "Reference" "LED19"
+			(at 234.315 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 234.315 92.71 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 234.95 81.28 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 233.68 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 236.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3ffa034d-618d-4ec3-896f-0574cb062c77")
+		)
+		(pin "4"
+			(uuid "da1b7895-67d3-4148-a83e-060ccec3b04a")
+		)
+		(pin "1"
+			(uuid "e8b21d98-6ea3-4c54-9883-92c1d0caa99c")
+		)
+		(pin "2"
+			(uuid "2ff1178a-7e46-4020-b7be-6afaade71b2f")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 163.83 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15d0eca0-75b0-4901-a35f-8c86c563a89f")
+		(property "Reference" "#GND015"
+			(at 162.56 45.72 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.608 41.91 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 163.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "7ed958af-7e02-47ce-a3fe-301cc20f7c73")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 217.17 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1856c451-8953-43b2-8303-aa4987aa2d9c")
+		(property "Reference" "LED8"
+			(at 215.265 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 215.265 54.61 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 215.9 43.18 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 214.63 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 217.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e833b479-81b4-418b-a264-18e4c3058623")
+		)
+		(pin "4"
+			(uuid "436fd385-6418-4700-aaf2-97a73a20ff8f")
+		)
+		(pin "1"
+			(uuid "0818fbc8-9050-433e-ac2c-bbd5cc7af6b6")
+		)
+		(pin "2"
+			(uuid "9b9bc574-8691-4f06-b02d-547c6d0c1476")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 140.97 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18f7680f-307d-4794-a0d5-c08aa93a7dec")
+		(property "Reference" "LED24"
+			(at 139.065 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 139.065 130.81 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 139.7 119.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 138.43 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 140.97 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9b9fbc89-4300-44df-9f1f-43a373954c31")
+		)
+		(pin "4"
+			(uuid "5263ea90-c1e6-4d32-92fc-225e40ccad5c")
+		)
+		(pin "1"
+			(uuid "ea73e84f-21e3-454c-8d01-f401528defc0")
+		)
+		(pin "2"
+			(uuid "9111314a-0171-4601-8b2d-d18b7870b16e")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 38.1 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a0f06b9-6292-4eb0-b153-efda0aff43e6")
+		(property "Reference" "#GND011"
+			(at 39.37 43.18 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.482 44.196 90)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 46.99 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 38.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "3424b752-f653-455c-8374-1af8aabb2d2a")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 255.27 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ce44eeb-e36a-4014-9ff2-d907a2318dd3")
+		(property "Reference" "LED10"
+			(at 253.365 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 253.365 54.61 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 254 43.18 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 252.73 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 255.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9a6d9ca6-164d-4f67-93d0-416811cfb519")
+		)
+		(pin "4"
+			(uuid "d8906b30-1dd2-45a2-b6e5-14cb8624ba0d")
+		)
+		(pin "1"
+			(uuid "82c1102f-d05a-44ce-a63f-65ec840907d2")
+		)
+		(pin "2"
+			(uuid "6555e845-4264-4501-a4e7-977ae1cce96f")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 87.63 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "202f278e-b825-4bbb-a216-4d60af2a767b")
+		(property "Reference" "#GND031"
+			(at 86.36 121.92 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 89.408 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 87.63 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "e42f3416-baca-453e-a9fc-0e5f6426362c")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 144.78 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25347dc6-b79e-4eb8-bba8-e96152497f50")
+		(property "Reference" "#GND034"
+			(at 143.51 121.92 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.558 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 144.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "9513d051-03fa-4a3f-87ea-09f0f5df20fc")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 217.17 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2743ef90-009e-4b9b-b8ba-8fec311c2135")
+		(property "Reference" "LED18"
+			(at 215.265 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 215.265 92.71 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 214.63 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 217.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b914fca6-ebd4-45e5-adb7-b912fc77fe53")
+		)
+		(pin "4"
+			(uuid "aaaedae1-b444-4adb-8b50-887c1f13c8c4")
+		)
+		(pin "1"
+			(uuid "0ed484b5-d340-4057-907d-2470be3e00d4")
+		)
+		(pin "2"
+			(uuid "cf694a28-16b0-4a60-a6fa-e685787c40d2")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 160.02 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27656c7f-86f7-454c-bd7a-2f2e6a0f9972")
+		(property "Reference" "LED25"
+			(at 158.115 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 158.115 130.81 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 158.75 119.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 157.48 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2148b539-dc5a-480c-87c0-705b84d979d6")
+		)
+		(pin "4"
+			(uuid "7f3d631b-9367-4943-9485-ae5c44e1a52d")
+		)
+		(pin "1"
+			(uuid "b11e3b33-a0c0-4a55-b728-8abc9f19b2ea")
+		)
+		(pin "2"
+			(uuid "cdfe2718-76bd-451d-aeb8-ec670859a7f9")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 163.83 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "303a09de-b117-43b1-9c88-db1f5db07ef9")
+		(property "Reference" "#GND035"
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.608 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 163.83 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 163.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "e29d5f00-8637-48bf-b1e5-8f26bcb5bdae")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 240.03 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32e51c08-df4d-405d-b8fc-c80836eb661a")
+		(property "Reference" "#GND029"
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.808 80.01 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 240.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "12efaf99-78b7-4a43-853c-0cb389fb665d")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 198.12 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34516408-50d9-4109-bd84-74a22af3c1a4")
+		(property "Reference" "LED27"
+			(at 196.215 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 196.215 130.81 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 196.85 119.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 195.58 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 198.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4bc287b9-c078-479a-88f2-26c10380aeae")
+		)
+		(pin "4"
+			(uuid "314f9ef3-c1e5-4e29-96ba-2af97fc28c2c")
+		)
+		(pin "1"
+			(uuid "8213fe2f-92bd-4161-b1a4-2c43b9b65c5c")
+		)
+		(pin "2"
+			(uuid "04631e87-5246-451e-85dd-20b1a412fe13")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 125.73 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34b0ad62-9d0e-4f94-be99-9c5fee7298fc")
+		(property "Reference" "#GND023"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127.508 80.01 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 125.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "2c0838c1-1df6-44b4-97fa-48a9e8ee3337")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 163.83 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35df43f6-a6c1-47f3-a64f-d9fa26fd3217")
+		(property "Reference" "#GND025"
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.608 80.01 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 163.83 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "3d67b163-3f29-4c51-b302-60879194e4d9")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 236.22 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "397c75e4-0b4f-4637-8729-c21cfff2480f")
+		(property "Reference" "LED9"
+			(at 234.315 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 234.315 54.61 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 234.95 43.18 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 233.68 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "becedcb5-9441-4b0c-9031-0de3bd47376f")
+		)
+		(pin "4"
+			(uuid "b5abb4d7-f18f-4e1b-87d5-7638052c52c7")
+		)
+		(pin "1"
+			(uuid "ed1d5858-920c-486b-9423-d245036785e6")
+		)
+		(pin "2"
+			(uuid "68f3b653-a2aa-4caa-86ea-b50985f0494c")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 144.78 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bcc8825-41c2-4417-8485-fd1050decdc1")
+		(property "Reference" "#GND024"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.558 80.01 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "1b93d1e8-781c-4fd7-a283-e34238192e2f")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 220.98 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40613692-7a93-42c7-93fc-b8ded84cbb14")
+		(property "Reference" "#GND038"
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.758 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 220.98 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 220.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "3824e5d8-202c-485c-8919-cdc30dd9772f")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 220.98 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44a68e64-a006-4a4c-84fe-321a5d42245d")
+		(property "Reference" "#GND018"
+			(at 219.71 45.72 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.758 41.91 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 220.98 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 220.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "b963531e-7bca-4a83-bc72-7bcda6681fc1")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 106.68 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44f659d9-3e71-4594-ac1e-cefeb9168183")
+		(property "Reference" "#GND022"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 108.458 80.01 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "39a77c14-d5e9-46c7-9234-2c108ad6a608")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 240.03 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5555eda2-55e2-4140-89c2-d5aaae077466")
+		(property "Reference" "#GND019"
+			(at 238.76 45.72 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.808 41.91 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 240.03 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 240.03 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "f1739f40-51ba-4a68-8d44-0ab4129681e9")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 259.08 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bb16f27-2cf9-4358-8b93-c2a2fcbcda0f")
+		(property "Reference" "#GND040"
+			(at 257.81 121.92 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.858 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 259.08 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "80b8c7c2-4164-467a-b029-ef617463481d")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 121.92 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ecd1223-e44d-40cb-aa20-c2b50f19d483")
+		(property "Reference" "LED3"
+			(at 120.015 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 120.015 54.61 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 120.65 43.18 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 119.38 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 121.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "15f74329-1ad7-4c62-9b82-c2e2c38d7105")
+		)
+		(pin "4"
+			(uuid "97982cdb-3599-439c-b155-d3ccd85dab1c")
+		)
+		(pin "1"
+			(uuid "07a73aa0-c494-4a28-90f8-8fcac6921956")
+		)
+		(pin "2"
+			(uuid "1cc7379f-60fd-48d0-a0a2-4259c3d578e9")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 83.82 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "659018fc-9b48-475d-991d-b8b4fac3faef")
+		(property "Reference" "LED11"
+			(at 81.915 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 81.915 92.71 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 82.55 81.28 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 81.28 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 83.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f2c2477f-93a0-44af-b2a9-ccb8b2506943")
+		)
+		(pin "4"
+			(uuid "fcbcdbb0-8538-4dfc-9cbc-be4d91ac36a8")
+		)
+		(pin "1"
+			(uuid "0189af1e-2c71-4f9c-94a9-e5e66d55a269")
+		)
+		(pin "2"
+			(uuid "a9ea34b7-65cb-4c8d-bb4c-c6c8bfc1c652")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 125.73 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65cdfd3b-33eb-4487-b8e4-9c95ecfaecd6")
+		(property "Reference" "#GND013"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127.508 41.91 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 125.73 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 125.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "fa322a9f-e248-42f2-9a0b-2423e9d418ca")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 160.02 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "695ca92c-9317-460a-adfa-0dfb057c5f22")
+		(property "Reference" "LED15"
+			(at 158.115 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 158.115 92.71 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 158.75 81.28 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 157.48 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 160.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4a7510e3-2f78-4711-a193-08c338332ae9")
+		)
+		(pin "4"
+			(uuid "a9f040ac-57d1-47ac-9151-895f63c7023a")
+		)
+		(pin "1"
+			(uuid "be712578-edc5-4547-b795-71a40d3ca107")
+		)
+		(pin "2"
+			(uuid "2cf8837a-3356-4314-af4f-a95f2e1f360f")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 198.12 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bde2579-74ad-4098-ba35-925c4acb9c26")
+		(property "Reference" "LED7"
+			(at 196.215 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 196.215 54.61 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 195.58 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 198.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9b868f45-71d4-4039-a3c9-12230e8438dc")
+		)
+		(pin "4"
+			(uuid "ae59e70e-e17f-4bb1-bb8d-3a11d1a0b972")
+		)
+		(pin "1"
+			(uuid "4b9c0eab-ca59-4c78-9d75-53f072d691d2")
+		)
+		(pin "2"
+			(uuid "e5a27010-42c1-486b-a8bc-f97f4ec86f14")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 83.82 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f6c6997-ed10-4877-babe-4570a51f79d1")
+		(property "Reference" "LED21"
+			(at 81.915 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 81.915 130.81 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 81.28 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 83.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6ec22894-1cb4-4cc5-a2e2-ee5a9811834c")
+		)
+		(pin "4"
+			(uuid "641c07f1-502f-4920-b37d-14a3cba8ae54")
+		)
+		(pin "1"
+			(uuid "48779845-cbe0-4916-9e1c-9a62280e4f11")
+		)
+		(pin "2"
+			(uuid "0aba2ef4-b9ea-4c2c-8b2c-014d6d28c3f0")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 182.88 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72399c85-0d76-4f7a-8727-04391cfef2ee")
+		(property "Reference" "#GND026"
+			(at 181.61 83.82 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.658 80.01 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "988c3058-48d5-4185-bc98-54a3fb823326")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 220.98 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e7bef93-c161-48f7-b8af-d50cf16cdfb2")
+		(property "Reference" "#GND028"
+			(at 219.71 83.82 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.758 80.01 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 220.98 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 220.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "796c7880-16d8-4588-bde7-0bfd16e1bc53")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 121.92 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "840a7f03-171c-4e74-a7ef-77d322277096")
+		(property "Reference" "LED23"
+			(at 120.015 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 120.015 130.81 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 119.38 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 121.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "98c3d5c9-b19e-493b-bb3e-92f8df104957")
+		)
+		(pin "4"
+			(uuid "bedcfadf-6f92-4d62-80db-7e1024fac83a")
+		)
+		(pin "1"
+			(uuid "813cf53b-3a8c-4c1b-9d0b-780d1360e06f")
+		)
+		(pin "2"
+			(uuid "59d2079f-d2ea-4222-9416-1cadd8a36b3e")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 217.17 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8656ff9f-ec45-4979-b384-f41e784c3198")
+		(property "Reference" "LED28"
+			(at 215.265 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 215.265 130.81 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 215.9 119.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 214.63 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 217.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9156da33-1612-410c-a569-b9fe926e9d70")
+		)
+		(pin "4"
+			(uuid "b69a8f97-4070-433c-84eb-1cae9288b014")
+		)
+		(pin "1"
+			(uuid "135fa517-6e82-49e7-9530-8ca4f3cea141")
+		)
+		(pin "2"
+			(uuid "b9867fa3-6c95-4573-93d5-27a75b5e88b2")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 160.02 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b48f8d7-1547-48c8-97b0-afb24f2a0930")
+		(property "Reference" "LED5"
+			(at 158.115 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 158.115 54.61 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 157.48 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 160.02 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0de9879f-a4fe-496e-9b44-74ef317027c4")
+		)
+		(pin "4"
+			(uuid "d7b57af8-840e-4a45-9110-e1829eb8669b")
+		)
+		(pin "1"
+			(uuid "210da8c5-351d-4f5a-87a2-695f075f3464")
+		)
+		(pin "2"
+			(uuid "118e9d48-6760-4451-b266-f41e1ee83dbf")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 179.07 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d089c12-98b7-4afd-b93d-72c92511a631")
+		(property "Reference" "LED6"
+			(at 177.165 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 177.165 54.61 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 177.8 43.18 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 176.53 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "952a89e0-3571-4b43-96bf-ab41d5d4bbde")
+		)
+		(pin "4"
+			(uuid "74d9822d-5ff3-429b-9e09-de27df0e6334")
+		)
+		(pin "1"
+			(uuid "7d730d26-72eb-4078-a15c-a0062e7da111")
+		)
+		(pin "2"
+			(uuid "8fcf97e3-239a-4a93-b96e-6d87401ebc2b")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 201.93 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "951e86f6-666f-4e30-bffa-422f678aa994")
+		(property "Reference" "#GND017"
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.708 41.91 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 201.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "bf3710f9-f96b-48a3-a727-a10a1564cdeb")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 102.87 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97224dba-f884-4428-b122-cdd1e8b55784")
+		(property "Reference" "LED22"
+			(at 100.965 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 100.965 130.81 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 100.33 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 102.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b208b568-85b6-4189-ae97-279b884ff461")
+		)
+		(pin "4"
+			(uuid "8e865462-91f1-48ee-a36b-5c1924a20474")
+		)
+		(pin "1"
+			(uuid "a6e25557-d2e5-45ea-b232-1a051d033eec")
+		)
+		(pin "2"
+			(uuid "8313a692-4c48-4bc2-9122-f228bc9c79da")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 255.27 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bd6c473-566b-4388-b2ff-69d4a6c07693")
+		(property "Reference" "LED30"
+			(at 253.365 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 253.365 130.81 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 254 119.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 252.73 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 255.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "09ce4b15-dd26-4489-a33b-0f36bc57cd9f")
+		)
+		(pin "4"
+			(uuid "8b2999f3-11f8-493a-a240-8443cae895df")
+		)
+		(pin "1"
+			(uuid "b4e3b61f-b750-46d1-b969-5b9a7d190a4e")
+		)
+		(pin "2"
+			(uuid "b659283b-fd73-4e63-ace5-0854b5f2a1e3")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 106.68 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7aa3722-8b7e-4460-934e-59f05eaf2847")
+		(property "Reference" "#GND012"
+			(at 105.41 45.72 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 108.458 41.91 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 106.68 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 106.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "dbcb4ce1-b65e-4f9e-8ff2-46ddb83a9127")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 179.07 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2662443-0869-4c55-b64d-7c2afde74f79")
+		(property "Reference" "LED16"
+			(at 177.165 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 177.165 92.71 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 176.53 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2407c1cb-44b0-45be-b244-32afa40077dd")
+		)
+		(pin "4"
+			(uuid "3665e621-18f2-42bb-aec8-350c7d66aea5")
+		)
+		(pin "1"
+			(uuid "d580b640-c261-4e3f-99f1-a4c3da0e468a")
+		)
+		(pin "2"
+			(uuid "24583fcf-7e69-41d2-8fd0-92f7980af6d5")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 83.82 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b54e9b00-d21a-4151-b091-5c10895c8b44")
+		(property "Reference" "LED1"
+			(at 81.915 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 81.915 54.61 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 81.28 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 83.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1ed21da5-4fd6-4364-afa4-927ff93bca66")
+		)
+		(pin "4"
+			(uuid "986a1075-c5b1-4449-b30c-43e7443b8e27")
+		)
+		(pin "1"
+			(uuid "b0d4747b-7a32-4145-b49d-22a90b8eaff5")
+		)
+		(pin "2"
+			(uuid "924487b5-4a07-4398-89c1-a4dee84a98d8")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 102.87 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6291a69-3c45-4149-bd0b-f200f07f8773")
+		(property "Reference" "LED2"
+			(at 100.965 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 100.965 54.61 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 100.33 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "06647d45-b1d1-4a4f-9038-2452d8462868")
+		)
+		(pin "4"
+			(uuid "b3448318-8376-4756-b068-9cbc02def1c7")
+		)
+		(pin "1"
+			(uuid "8e1062ee-b720-423d-9720-637efb9bd583")
+		)
+		(pin "2"
+			(uuid "31e59c6e-ac14-42b7-abb3-d275f4a27cda")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 201.93 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7d73748-ef63-45d5-8555-8c348d68f5bf")
+		(property "Reference" "#GND037"
+			(at 200.66 121.92 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.708 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 201.93 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "51c414ed-acb0-4e5a-a01b-0efee0ac8d44")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 140.97 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9f0de9c-24fc-4f75-a61e-aea20b0d2a8a")
+		(property "Reference" "LED4"
+			(at 139.065 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 139.065 54.61 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 138.43 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "148bece4-d74c-4aae-bf25-536903b56aca")
+		)
+		(pin "4"
+			(uuid "8f3f714f-eb02-4de6-8af0-2e8acf178f0e")
+		)
+		(pin "1"
+			(uuid "a1a518f0-eff6-4043-8411-f09f425691fd")
+		)
+		(pin "2"
+			(uuid "0ed78000-a1ee-4fd4-a534-957c7e4d1e3f")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 240.03 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bafaa0ad-a872-48ba-b7be-2a65cba07fca")
+		(property "Reference" "#GND039"
+			(at 238.76 121.92 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.808 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 240.03 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 240.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "2de6505b-7225-4eaf-85b0-8081080d12ec")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 259.08 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc18221b-2f06-45a7-93ed-5b6af91055fe")
+		(property "Reference" "#GND020"
+			(at 257.81 45.72 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.858 41.91 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 259.08 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 259.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "3b1f6329-6908-4318-a595-9f0c5f02746c")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 182.88 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c139cdb6-46f9-40bb-9278-5f30da482766")
+		(property "Reference" "#GND016"
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.658 41.91 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 182.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "0c187a1e-7075-4f88-8047-36028c0619e1")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 236.22 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3b234ee-3d60-4d34-b9d2-d0f7001721f9")
+		(property "Reference" "LED29"
+			(at 234.315 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 234.315 130.81 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 234.95 119.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 233.68 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "caa65b93-e186-4c5b-9adf-45b75ae0b7a2")
+		)
+		(pin "4"
+			(uuid "03512253-9f51-401d-8221-8254c050bd77")
+		)
+		(pin "1"
+			(uuid "eb2f0765-0e1d-40ec-9996-09e0c234edee")
+		)
+		(pin "2"
+			(uuid "d5e3a734-5906-4873-88fa-f78164932453")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 144.78 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c52371e1-6857-46d2-bf1d-799848609e85")
+		(property "Reference" "#GND014"
+			(at 143.51 45.72 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.558 41.91 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 144.78 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "64baed16-ccd3-4d56-b228-27e61f83c32b")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 102.87 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c580eb3f-bd78-42d9-a994-3863fab704d7")
+		(property "Reference" "LED12"
+			(at 100.965 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 100.965 92.71 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 100.33 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3ebbdf38-22b0-40c4-8a5a-1cfc86268f87")
+		)
+		(pin "4"
+			(uuid "96938088-16b3-41a5-836f-67324c4f53d2")
+		)
+		(pin "1"
+			(uuid "52d13de1-8ec2-44e1-ae04-c788bccaeeb2")
+		)
+		(pin "2"
+			(uuid "6f2b8d72-fbb3-4588-b5c4-4fff41aff022")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 259.08 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6dfcb0e-98e0-409a-8d5c-f3fec7d49c75")
+		(property "Reference" "#GND030"
+			(at 257.81 83.82 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.858 80.01 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 259.08 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 259.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "b5a8f043-09f9-47af-998c-2fa6bbc2a2c7")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 87.63 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb5b50ad-5c40-4abb-8fbd-6822c04d41b9")
+		(property "Reference" "#GND02"
+			(at 86.36 45.72 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 89.408 41.91 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 87.63 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "6c79ca30-c0ad-45b2-bc39-206129e4417e")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 198.12 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc461ce2-c3de-4374-a5de-bab98e64e404")
+		(property "Reference" "LED17"
+			(at 196.215 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 196.215 92.71 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 195.58 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 198.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "79533f85-46d7-4a06-ab1d-c41e74f0954d")
+		)
+		(pin "4"
+			(uuid "5224a2cd-1441-472a-8e34-3d0f4afb9bc3")
+		)
+		(pin "1"
+			(uuid "a9cc4615-3380-410f-93c2-0b2ed019a699")
+		)
+		(pin "2"
+			(uuid "52ae7aea-c8c1-41d2-b307-a459c34cb8c8")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 255.27 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd554043-d54b-4a1f-8d17-cdd6ddfc941a")
+		(property "Reference" "LED20"
+			(at 253.365 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 253.365 92.71 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 254 81.28 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 252.73 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 255.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "654473f8-ab52-43ee-9aeb-91b02a5e14f0")
+		)
+		(pin "4"
+			(uuid "82f1058a-919d-4718-bcf4-6d01fe0b8def")
+		)
+		(pin "1"
+			(uuid "29bef866-8fb8-4ab3-affb-7a6e0c27b09e")
+		)
+		(pin "2"
+			(uuid "7848a2fe-9fc3-426d-be1e-dfca78a8ccd4")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 87.63 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1de9f17-f5cd-4cff-b765-bd5f93c916ba")
+		(property "Reference" "#GND021"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 89.408 80.01 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 87.63 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "bb1330d7-a9a7-4b96-b0a3-4ad3d50a040c")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 182.88 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3cee57f-7062-492b-aa03-be5847d2f22a")
+		(property "Reference" "#GND036"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.658 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 182.88 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 182.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "7b9c5252-bc59-4c83-9753-fdc7073a1f66")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 140.97 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d78bf2c5-9c14-472b-8cbe-c7e12b3e9387")
+		(property "Reference" "LED14"
+			(at 139.065 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 139.065 92.71 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 138.43 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "76e2edc5-8c14-4509-ba44-1498b6fba36a")
+		)
+		(pin "4"
+			(uuid "7d671172-7044-44cb-859b-5360f0008d46")
+		)
+		(pin "1"
+			(uuid "667c4a41-90c4-4ddb-bc41-efb4412fa877")
+		)
+		(pin "2"
+			(uuid "a3776968-add8-443d-98a8-60fc6d1463a5")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 125.73 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1e4b667-0bbe-40a9-94ae-5f836563c0ba")
+		(property "Reference" "#GND033"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127.508 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 125.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "b5f1f62b-df2b-4f3e-be00-d3bc4a5f0454")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 121.92 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea025ac3-dc2f-4c3a-910f-318f834d7a76")
+		(property "Reference" "LED13"
+			(at 120.015 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 120.015 92.71 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 119.38 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "604d67e6-d5cc-45d7-8180-4ba33f02937a")
+		)
+		(pin "4"
+			(uuid "0cb90cee-9e3e-4bc3-9dbc-ce0917edcb76")
+		)
+		(pin "1"
+			(uuid "40ab8f2b-d42f-42f9-8c10-e6236fba927f")
+		)
+		(pin "2"
+			(uuid "cfb93241-66fd-46ba-bdfb-613d511b3dd6")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND2")
+		(at 201.93 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f08a94ea-bb21-40c1-a2ff-cfe1a305c10a")
+		(property "Reference" "#GND027"
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.708 80.01 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XXX-00000"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ground Supply (Earth Ground style) Ground supply with a traditional \"earth ground\" symbol."
+			(at 201.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "cdde4d7e-3048-4258-be59-13b97a34af71")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "#GND027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-DiscreteSemi:SK6812")
+		(at 179.07 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd34c3d2-b7d4-4bbb-9e06-ed18697376b7")
+		(property "Reference" "LED26"
+			(at 177.165 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 177.165 130.81 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:SK6812-MINI-E"
+			(at 177.8 119.38 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 176.53 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 179.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2f7d7a48-9fe5-40da-b0a7-72980e6d1c72")
+		)
+		(pin "4"
+			(uuid "1b5a50f7-cde9-4d11-bb92-a1e96d4236f4")
+		)
+		(pin "1"
+			(uuid "4b68e48b-37b5-4dba-91ef-d70e30c515ec")
+		)
+		(pin "2"
+			(uuid "565c0b85-86fe-4436-b21a-9f5ff0ecaea2")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "LED26")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
