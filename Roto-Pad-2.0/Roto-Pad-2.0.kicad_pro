@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 2.5,
+          "width": 2.55
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -643,6 +643,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -667,6 +675,18 @@
     [
       "5d0db11c-625d-4ecf-b8a6-38a71135ffdd",
       "Neopixel"
+    ],
+    [
+      "1e13d950-fb57-4ff5-816d-5fb428c38ffe",
+      "Neopixel Logic Shifter"
+    ],
+    [
+      "beb460ab-18f8-4c70-9265-26528d7f6074",
+      "Debounce Array"
+    ],
+    [
+      "c7721259-59ee-453b-a832-1ddf67bf07b1",
+      "RGB Encoder"
     ]
   ],
   "text_variables": {}

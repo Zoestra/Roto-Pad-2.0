@@ -3390,7 +3390,7 @@
 		(uuid "f9ca01e1-d073-4d2c-8cc6-0741dd391509")
 	)
 	(hierarchical_label "Col 4"
-		(shape output)
+		(shape input)
 		(at 114.3 25.4 90)
 		(effects
 			(font
@@ -3401,7 +3401,7 @@
 		(uuid "0f21f852-ff03-49d9-8b37-c2517e928708")
 	)
 	(hierarchical_label "Col 3"
-		(shape output)
+		(shape input)
 		(at 133.35 25.4 90)
 		(effects
 			(font
@@ -3412,7 +3412,7 @@
 		(uuid "1c330e91-fdd2-4351-bc0c-7712cc1d7473")
 	)
 	(hierarchical_label "Col 2"
-		(shape output)
+		(shape input)
 		(at 95.25 25.4 90)
 		(effects
 			(font
@@ -3423,7 +3423,7 @@
 		(uuid "3875aa96-f472-4467-bebf-12acc0abce04")
 	)
 	(hierarchical_label "Row 3"
-		(shape input)
+		(shape output)
 		(at 50.8 88.9 180)
 		(effects
 			(font
@@ -3434,7 +3434,7 @@
 		(uuid "56edc258-b315-4e83-bea6-9f5985e9b071")
 	)
 	(hierarchical_label "Row 2"
-		(shape input)
+		(shape output)
 		(at 50.8 63.5 180)
 		(effects
 			(font
@@ -3445,7 +3445,7 @@
 		(uuid "67ee75aa-1914-4547-8d1b-eaec41b7004f")
 	)
 	(hierarchical_label "Row 1"
-		(shape input)
+		(shape output)
 		(at 50.8 38.1 180)
 		(effects
 			(font
@@ -3456,7 +3456,7 @@
 		(uuid "9db728e8-d810-4aaf-95d7-eb75f88d9f74")
 	)
 	(hierarchical_label "Row 5"
-		(shape input)
+		(shape output)
 		(at 50.8 139.7 180)
 		(effects
 			(font
@@ -3467,7 +3467,7 @@
 		(uuid "aac00162-9598-492e-8272-3db508c45a4b")
 	)
 	(hierarchical_label "Row 4"
-		(shape input)
+		(shape output)
 		(at 50.8 114.3 180)
 		(effects
 			(font
@@ -3478,7 +3478,7 @@
 		(uuid "c5982cea-c463-487c-a446-ad11f460db5b")
 	)
 	(hierarchical_label "Col 1"
-		(shape output)
+		(shape input)
 		(at 76.2 25.4 90)
 		(effects
 			(font
@@ -3489,7 +3489,7 @@
 		(uuid "cb8875fd-3d02-4f89-befa-a0d8fec4b9fb")
 	)
 	(hierarchical_label "Col 5"
-		(shape output)
+		(shape input)
 		(at 152.4 25.4 90)
 		(effects
 			(font
@@ -3660,7 +3660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 87.63 48.26 0)
 			(effects
 				(font
@@ -3833,7 +3833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 144.78 48.26 0)
 			(effects
 				(font
@@ -4006,7 +4006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 144.78 124.46 0)
 			(effects
 				(font
@@ -4111,7 +4111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 125.73 124.46 0)
 			(effects
 				(font
@@ -4216,7 +4216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 68.58 124.46 0)
 			(effects
 				(font
@@ -4321,7 +4321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 87.63 99.06 0)
 			(effects
 				(font
@@ -5106,7 +5106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 106.68 73.66 0)
 			(effects
 				(font
@@ -5211,7 +5211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 125.73 48.26 0)
 			(effects
 				(font
@@ -5316,7 +5316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -5489,7 +5489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 144.78 73.66 0)
 			(effects
 				(font
@@ -5594,7 +5594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 87.63 149.86 0)
 			(effects
 				(font
@@ -5767,7 +5767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 68.58 149.86 0)
 			(effects
 				(font
@@ -5872,7 +5872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 144.78 149.86 0)
 			(effects
 				(font
@@ -6045,7 +6045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 144.78 99.06 0)
 			(effects
 				(font
@@ -6150,7 +6150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 68.58 99.06 0)
 			(effects
 				(font
@@ -6256,7 +6256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 68.58 48.26 0)
 			(effects
 				(font
@@ -6497,7 +6497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 106.68 149.86 0)
 			(effects
 				(font
@@ -6602,7 +6602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 68.58 73.66 0)
 			(effects
 				(font
@@ -6911,7 +6911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 106.68 99.06 0)
 			(effects
 				(font
@@ -7016,7 +7016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 125.73 99.06 0)
 			(effects
 				(font
@@ -7121,7 +7121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 125.73 149.86 0)
 			(effects
 				(font
@@ -7294,7 +7294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 87.63 124.46 0)
 			(effects
 				(font
@@ -7467,7 +7467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 106.68 124.46 0)
 			(effects
 				(font
@@ -7572,7 +7572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 106.68 48.26 0)
 			(effects
 				(font
@@ -7677,7 +7677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_1206_3216Metric_Castellated"
+		(property "Footprint" "Keebio-Parts.pretty-master:Diode-dual"
 			(at 87.63 73.66 0)
 			(effects
 				(font
