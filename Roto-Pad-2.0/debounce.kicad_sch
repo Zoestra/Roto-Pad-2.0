@@ -1019,7 +1019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "adafruit:R0805"
 			(at 92.71 63.5 0)
 			(effects
 				(font
@@ -1108,7 +1108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keebio-Parts.pretty-master:C_0402"
 			(at 101.6 45.72 0)
 			(effects
 				(font
@@ -1194,7 +1194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "adafruit:R0805"
 			(at 92.71 139.7 0)
 			(effects
 				(font
@@ -1280,7 +1280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "adafruit:R0805"
 			(at 92.71 38.1 0)
 			(effects
 				(font
@@ -1369,7 +1369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keebio-Parts.pretty-master:C_0402"
 			(at 101.6 121.92 0)
 			(effects
 				(font
@@ -1455,7 +1455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "adafruit:R0805"
 			(at 92.71 114.3 0)
 			(effects
 				(font
@@ -1544,7 +1544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keebio-Parts.pretty-master:C_0402"
 			(at 101.6 96.52 0)
 			(effects
 				(font
@@ -1633,7 +1633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keebio-Parts.pretty-master:C_0402"
 			(at 101.6 147.32 0)
 			(effects
 				(font
@@ -1719,7 +1719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "adafruit:R0805"
 			(at 92.71 88.9 0)
 			(effects
 				(font
@@ -1808,7 +1808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keebio-Parts.pretty-master:C_0402"
 			(at 101.6 71.12 0)
 			(effects
 				(font

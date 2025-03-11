@@ -832,7 +832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_4ms_Resistor:R_0402"
 			(at 63.5 68.58 0)
 			(effects
 				(font
@@ -921,7 +921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_4ms_Resistor:R_0402"
 			(at 96.52 68.58 0)
 			(effects
 				(font
