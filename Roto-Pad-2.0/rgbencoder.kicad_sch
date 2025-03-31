@@ -2457,7 +2457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "adafruit:R0805"
+		(property "Footprint" "Custom:R0805"
 			(at 162.56 95.25 0)
 			(effects
 				(font
