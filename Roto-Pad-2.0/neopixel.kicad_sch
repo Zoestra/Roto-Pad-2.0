@@ -5,214 +5,6 @@
 	(uuid "bc57a516-f088-4965-b3ed-bdac6067e5d2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "PCM_Elektuur:C-polar"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at -3.81 -2.5401 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "C-polar"
-				(at -3.81 -0.0001 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "capacitor, polar(ized)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Indicator" "+"
-				(at -1.27 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Rating" "V"
-				(at -3.81 2.5399 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "ki_keywords" "C cap capacitor polarized polar bipolar electrolytic elcap e-cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C-polar_1_1"
-				(polyline
-					(pts
-						(xy -1.905 0.2794) (xy 1.905 0.2794) (xy 1.905 1.3462) (xy -1.905 1.3462) (xy -1.905 0.2794) (xy -1.8034 0.381)
-						(xy -1.8034 1.2446) (xy 1.8034 1.2446) (xy 1.8034 0.381) (xy -1.8034 0.381) (xy -1.905 0.2794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.905 -0.5842)
-					(end 1.905 -1.3462)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 3.7338)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 3.7338)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "C-polar_1_2"
-				(polyline
-					(pts
-						(xy -1.905 0.4318) (xy 1.905 0.4318) (xy 1.905 1.4986) (xy -1.905 1.4986) (xy -1.905 0.4318) (xy -1.8034 0.5334)
-						(xy -1.8034 1.397) (xy 1.8034 1.397) (xy 1.8034 0.5334) (xy -1.8034 0.5334) (xy -1.905 0.4318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.905 -0.4318)
-					(end 1.905 -1.1938)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 3.5814)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 3.8862)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Elektuur:R"
 			(pin_numbers
 				(hide yes)
@@ -505,6 +297,135 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SL_Devices:Capacitor_NP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Capacitor_NP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm Capacitor_THT:C_Rect_L29.0mm_W7.6mm_P27.50mm_MKT Capacitor_THT:C_Rect_L24.0mm_W7.0mm_P22.50mm_MKT Capacitor_THT:C_Rect_L11.5mm_W5.0mm_P10.00mm_MKT Capacitor_THT:C_Rect_L9.0mm_W3.6mm_P7.50mm_MKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Capacitor_NP_0_1"
+				(rectangle
+					(start -0.762 2.286)
+					(end -0.508 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.508 2.286)
+					(end 0.762 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Capacitor_NP_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 0 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-DiscreteSemi:SK6812"
 			(pin_names
 				(offset 0.254)
@@ -760,16 +681,34 @@
 		)
 	)
 	(junction
+		(at 240.03 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00bad505-b0dd-4392-b9b4-d3c71977b3d5")
+	)
+	(junction
 		(at 68.58 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00fb2ea5-21aa-40f3-b61a-1d2b90e0d943")
 	)
 	(junction
+		(at 182.88 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0158ab87-8101-4519-9027-62fb56fa8dfd")
+	)
+	(junction
 		(at 133.35 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "043eede8-8e16-4181-b8e0-11fd4f8ffb84")
+	)
+	(junction
+		(at 81.28 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05262d64-1572-434b-9526-1214ef876234")
 	)
 	(junction
 		(at 228.6 72.39)
@@ -782,6 +721,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0832fb54-2da6-4d3f-9950-d5918b30213e")
+	)
+	(junction
+		(at 81.28 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0964d00a-c062-4554-90e8-143accb52fd3")
 	)
 	(junction
 		(at 87.63 64.77)
@@ -808,6 +753,18 @@
 		(uuid "0e4e32c1-17f3-475b-bc7a-630123cba326")
 	)
 	(junction
+		(at 81.28 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e88fe76-339a-40e2-a08f-b993ca2b70a8")
+	)
+	(junction
+		(at 201.93 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eb6cfd7-2889-4460-97eb-6df1ff7b6c20")
+	)
+	(junction
 		(at 95.25 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -826,6 +783,18 @@
 		(uuid "14e2fc33-343a-4349-9348-6ffdcbb04bc0")
 	)
 	(junction
+		(at 175.26 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18456349-4f39-4d9b-a326-2e4072d629bc")
+	)
+	(junction
+		(at 194.31 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1acc129b-cb1b-4cbd-91de-fb1099d5d647")
+	)
+	(junction
 		(at 190.5 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -836,6 +805,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ad6adad-cbe5-43ef-941d-df93867c785a")
+	)
+	(junction
+		(at 163.83 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c41408a-bffc-47ed-befa-44292d0d436a")
+	)
+	(junction
+		(at 118.11 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eef9ec7-fe6e-419c-aa56-96b2827e1951")
 	)
 	(junction
 		(at 240.03 64.77)
@@ -850,16 +831,40 @@
 		(uuid "23ad6bf8-a1dc-4d02-ac63-5133aa06e40f")
 	)
 	(junction
+		(at 201.93 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2630372c-6b92-4f04-85ea-483109e6f2b8")
+	)
+	(junction
 		(at 95.25 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "279c30ee-8ec7-4995-a8bc-7f16fe629e42")
 	)
 	(junction
+		(at 247.65 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "284f11c5-3000-4f5e-b77c-1d195ed178df")
+	)
+	(junction
 		(at 209.55 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2af70858-b3b9-4d29-96f0-30a02cd9b049")
+	)
+	(junction
+		(at 220.98 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b5e2ff0-586c-4b5e-a276-544fec118ae6")
+	)
+	(junction
+		(at 99.06 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e2b4180-7031-4b06-8dd3-7056811cbf5e")
 	)
 	(junction
 		(at 182.88 106.68)
@@ -874,10 +879,40 @@
 		(uuid "381cfe8b-42c7-4c75-bf9b-8a72976684cd")
 	)
 	(junction
+		(at 156.21 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39904005-f6c5-4abc-923f-42c87c9e401a")
+	)
+	(junction
+		(at 232.41 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b929f16-52b1-47be-b3eb-df410e284c50")
+	)
+	(junction
+		(at 106.68 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bad5bb4-eb40-47e4-a569-a5926acbeca8")
+	)
+	(junction
+		(at 88.9 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3da47266-c8c9-4546-8750-be9218fda58b")
+	)
+	(junction
 		(at 171.45 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dbf36d8-5fdd-4907-bb87-47f3a90560c9")
+	)
+	(junction
+		(at 163.83 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42e4f1f9-60ca-42cf-9ab5-6e0f403c4647")
 	)
 	(junction
 		(at 76.2 148.59)
@@ -886,10 +921,58 @@
 		(uuid "42ee58ce-904f-4542-b469-975a7c5b089c")
 	)
 	(junction
+		(at 137.16 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4422bb42-ed2a-403f-b9ea-f4ea0b58685a")
+	)
+	(junction
+		(at 182.88 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46e3b88f-c527-46f1-b97a-1ab2ed40e82f")
+	)
+	(junction
+		(at 144.78 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a8c9b1b-fffb-4f70-82fb-e2836e24ea0b")
+	)
+	(junction
+		(at 232.41 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c7c150b-94bf-484e-8e6b-41a8a6d62a26")
+	)
+	(junction
+		(at 106.68 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f9e5d8b-2a1b-4ae5-aacc-d8f14244b544")
+	)
+	(junction
+		(at 125.73 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5080361a-a780-46a2-b8f9-ba0ed2341814")
+	)
+	(junction
 		(at 201.93 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53c49e0f-499c-4c99-8f7c-a1dbb68e58d9")
+	)
+	(junction
+		(at 194.31 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "543f6231-6daa-47b3-989d-1ac5f19dc473")
+	)
+	(junction
+		(at 259.08 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54612354-9c43-4209-820e-dbe63f990312")
 	)
 	(junction
 		(at 144.78 64.77)
@@ -898,10 +981,34 @@
 		(uuid "55194a5e-f200-46e7-99ff-0ff31f3c61f8")
 	)
 	(junction
+		(at 175.26 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55e3d755-ff7c-4d2b-82f1-706ad93acde1")
+	)
+	(junction
+		(at 156.21 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cf719f4-ae33-4a55-ab90-1bb6958f4fad")
+	)
+	(junction
 		(at 68.58 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61b5bf41-9e4c-4fef-8ca0-873ab79601b7")
+	)
+	(junction
+		(at 118.11 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62bb4f85-a36c-466a-a64c-a8edd7a99a19")
+	)
+	(junction
+		(at 247.65 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63c8c7d1-9e47-4362-b089-a935ac36ac1b")
 	)
 	(junction
 		(at 62.23 38.1)
@@ -910,10 +1017,28 @@
 		(uuid "64642db8-1b63-4786-8e7e-0ee965ae08d0")
 	)
 	(junction
+		(at 259.08 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66c09158-9f13-43bb-95ef-26ce61907371")
+	)
+	(junction
+		(at 99.06 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68d8c34d-8b8a-4985-a121-6cccbf55b53d")
+	)
+	(junction
 		(at 190.5 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6971a6e3-02f5-4a81-a444-e8dad1404b7e")
+	)
+	(junction
+		(at 182.88 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c3b1667-aad3-48b0-a8d0-49756606d0d8")
 	)
 	(junction
 		(at 182.88 64.77)
@@ -928,6 +1053,12 @@
 		(uuid "6ff1cf74-b5f2-4e43-b3ae-bbbdbb81fd13")
 	)
 	(junction
+		(at 87.63 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "722e2963-a969-405e-b7e7-510340b49b09")
+	)
+	(junction
 		(at 133.35 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -938,6 +1069,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77d3c393-92fc-43d2-8aaf-859f219d871d")
+	)
+	(junction
+		(at 99.06 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "788ade70-0dc9-45bb-89e4-e91609296b3e")
 	)
 	(junction
 		(at 220.98 106.68)
@@ -970,6 +1107,12 @@
 		(uuid "7d622e06-ff28-4419-83aa-698a9d0ae6cc")
 	)
 	(junction
+		(at 240.03 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ecf4c84-ab2f-40d3-b50f-c98555479484")
+	)
+	(junction
 		(at 62.23 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -992,6 +1135,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "852e2871-5361-4b25-bd1a-f2731e4a7029")
+	)
+	(junction
+		(at 213.36 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8765b0e2-896d-4f9a-95d0-19f81f357959")
+	)
+	(junction
+		(at 106.68 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8809a0da-0e68-4cd3-9cb0-5e2aafe5583a")
+	)
+	(junction
+		(at 144.78 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ba7975b-1c50-4570-9e90-4b86f90876fc")
 	)
 	(junction
 		(at 106.68 140.97)
@@ -1018,10 +1179,22 @@
 		(uuid "9578ce8d-ef7d-425a-8809-25808e3e6f63")
 	)
 	(junction
-		(at 50.8 25.4)
+		(at 240.03 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9cf2c256-ff06-4f9f-ba14-8e7dd5952c37")
+		(uuid "9c0419c2-59fd-498a-97eb-bcb920b1d490")
+	)
+	(junction
+		(at 125.73 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c21edea-e10e-430a-93c0-6e570d262fc6")
+	)
+	(junction
+		(at 118.11 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f61172c-378b-4f0b-83cb-01a676fcef80")
 	)
 	(junction
 		(at 240.03 25.4)
@@ -1030,16 +1203,52 @@
 		(uuid "a0239b30-c310-4a45-9784-44c2f95e2c08")
 	)
 	(junction
+		(at 125.73 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2e80424-033f-465e-b21d-1a4e78731874")
+	)
+	(junction
+		(at 175.26 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a35569bb-30f2-48ec-9d1d-e5ecd3b6a368")
+	)
+	(junction
 		(at 125.73 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3e434eb-a645-4374-810a-cbf1266506e1")
 	)
 	(junction
+		(at 118.11 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7f321a8-75c4-476b-93d9-dba70d93b232")
+	)
+	(junction
 		(at 163.83 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8258311-6fe4-4b67-9769-167cf6cbb13f")
+	)
+	(junction
+		(at 163.83 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8dc8aea-eebd-4437-b15a-66d5f38d2195")
+	)
+	(junction
+		(at 247.65 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac581fdb-b09d-49d0-8f48-b7e4a7f80822")
+	)
+	(junction
+		(at 201.93 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b29f93c2-e42d-448d-b852-1bb5e1546e17")
 	)
 	(junction
 		(at 133.35 72.39)
@@ -1060,16 +1269,34 @@
 		(uuid "b940d381-9aa1-4513-8171-ae2436b3c6b5")
 	)
 	(junction
+		(at 220.98 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb5852c5-c81b-42c0-bc76-70895d438482")
+	)
+	(junction
+		(at 156.21 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c14cd8e0-4751-4f7f-8a75-befeb8c0dd30")
+	)
+	(junction
 		(at 74.93 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3e396c5-9299-4818-b905-126f3c8c80b5")
 	)
 	(junction
-		(at 50.8 38.1)
+		(at 213.36 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c999c1b4-fa3f-4125-8efc-82735fb39d75")
+		(uuid "c4d67806-1b17-495c-8c66-0271ae077f53")
+	)
+	(junction
+		(at 99.06 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8154927-2d93-43c2-ae82-8c937c62560f")
 	)
 	(junction
 		(at 171.45 38.1)
@@ -1096,10 +1323,28 @@
 		(uuid "cd7f234c-c9c1-47f3-a0ab-5473828bbaf1")
 	)
 	(junction
+		(at 137.16 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0bf2c34-572b-4343-a8f6-796ef636fe04")
+	)
+	(junction
 		(at 144.78 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d43e22a6-ed5e-4ba9-80ff-2292a2fabd52")
+	)
+	(junction
+		(at 232.41 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5569717-287b-40c8-8934-fe7ce75e8029")
+	)
+	(junction
+		(at 144.78 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7abb1db-b9ba-46ae-bafd-7ef3c9dd40fa")
 	)
 	(junction
 		(at 190.5 114.3)
@@ -1108,10 +1353,40 @@
 		(uuid "da8792b5-e574-4a5a-8ac9-da42680eea24")
 	)
 	(junction
+		(at 81.28 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db7ee15a-c788-4568-bbae-d05b76a0dc06")
+	)
+	(junction
+		(at 144.78 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcf70e42-4f82-4654-a372-0a9dd343258d")
+	)
+	(junction
 		(at 68.58 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddeafde9-cf41-4c8c-a273-660be820f3a4")
+	)
+	(junction
+		(at 125.73 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de48ac48-9ec3-430c-9ac9-6cae838e4308")
+	)
+	(junction
+		(at 213.36 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de96f09a-f000-4d2d-9963-08ccab92bc2c")
+	)
+	(junction
+		(at 259.08 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "def61e9c-a613-4e57-a13b-3bf24478ee8a")
 	)
 	(junction
 		(at 114.3 72.39)
@@ -1132,10 +1407,46 @@
 		(uuid "e427b4b0-e6d2-41ce-bca0-ba214d0c0f2f")
 	)
 	(junction
+		(at 152.4 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6b7deeb-a7ef-44fd-9f22-b9fc8be77b6b")
+	)
+	(junction
+		(at 220.98 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea7957fc-6c57-431e-ad25-62a9ffbdc122")
+	)
+	(junction
 		(at 182.88 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb52dc80-c1bc-4ef4-9bdc-ee9392d63b71")
+	)
+	(junction
+		(at 87.63 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec802fc5-f2cb-4606-8476-bce9b43cb264")
+	)
+	(junction
+		(at 163.83 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec832e05-f2b8-44b7-b78c-c8765d5130da")
+	)
+	(junction
+		(at 137.16 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1c43c78-8690-4a56-9a87-730b81ca427b")
+	)
+	(junction
+		(at 194.31 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1d00fab-610c-425b-b1da-4d62546e7532")
 	)
 	(junction
 		(at 152.4 72.39)
@@ -1162,16 +1473,34 @@
 		(uuid "f597fceb-0ddf-4c9a-928f-6ce5d81d2908")
 	)
 	(junction
+		(at 87.63 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6bcac8d-3dd1-42b9-a614-da288924e01c")
+	)
+	(junction
 		(at 228.6 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f83ee221-fa3c-42a3-94f6-0ce0ece46029")
 	)
 	(junction
+		(at 106.68 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fad3a7fa-7455-4f96-9e9f-274c4d86a115")
+	)
+	(junction
 		(at 163.83 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc483fec-1a80-40a4-8461-ce8664383435")
+	)
+	(junction
+		(at 137.16 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc7843ed-7830-4b80-9e32-227923b5a4c8")
 	)
 	(junction
 		(at 76.2 114.3)
@@ -1182,6 +1511,17 @@
 	(no_connect
 		(at 173.99 161.29)
 		(uuid "40b397b6-2d17-49f9-b1f5-0020da773406")
+	)
+	(wire
+		(pts
+			(xy 220.98 109.22) (xy 220.98 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "009bf071-34e0-4b5e-82b6-a55b61600734")
 	)
 	(wire
 		(pts
@@ -1196,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 114.3) (xy 133.35 114.3)
+			(xy 114.3 114.3) (xy 118.11 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1217,6 +1557,39 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 33.02) (xy 240.03 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "044d006c-7e7d-48d1-8722-cff2ec894474")
+	)
+	(wire
+		(pts
+			(xy 232.41 38.1) (xy 247.65 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "046fd6ac-03f4-4e75-bd20-06d33ba82a10")
+	)
+	(wire
+		(pts
+			(xy 144.78 33.02) (xy 144.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "04ac591a-a8fc-41e8-a325-1932239ce751")
+	)
+	(wire
+		(pts
 			(xy 228.6 46.99) (xy 228.6 38.1)
 		)
 		(stroke
@@ -1228,7 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 106.68) (xy 201.93 123.19)
+			(xy 201.93 106.68) (xy 201.93 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1239,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 148.59) (xy 133.35 148.59)
+			(xy 114.3 148.59) (xy 118.11 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1271,7 +1644,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 106.68) (xy 87.63 123.19)
+			(xy 87.63 106.68) (xy 87.63 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1279,6 +1652,17 @@
 			(color 0 132 0 1)
 		)
 		(uuid "0f1f1207-2ab9-4a9c-979a-0570e2b8cac9")
+	)
+	(wire
+		(pts
+			(xy 125.73 109.22) (xy 125.73 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "0f243875-1103-42bc-8671-3ed93984c899")
 	)
 	(wire
 		(pts
@@ -1304,7 +1688,40 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 106.68) (xy 106.68 123.19)
+			(xy 182.88 109.22) (xy 182.88 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "0fb4f8e1-e70e-42cf-9ab8-1cb89a2e9a20")
+	)
+	(wire
+		(pts
+			(xy 175.26 67.31) (xy 182.88 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "0fca3b31-fddf-46d2-b51d-f0f036285abd")
+	)
+	(wire
+		(pts
+			(xy 137.16 143.51) (xy 144.78 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "1216c053-aceb-4124-894f-7faf76a6ccc1")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 106.68 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1325,7 +1742,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 114.3) (xy 190.5 114.3)
+			(xy 171.45 114.3) (xy 175.26 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1336,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 114.3) (xy 209.55 114.3)
+			(xy 190.5 114.3) (xy 194.31 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1368,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 72.39) (xy 95.25 72.39)
+			(xy 76.2 72.39) (xy 81.28 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1379,7 +1796,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 72.39) (xy 247.65 72.39)
+			(xy 228.6 72.39) (xy 232.41 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1387,6 +1804,28 @@
 			(color 255 0 0 1)
 		)
 		(uuid "18f57283-5779-4d78-8a45-cf6ddb3ac4b2")
+	)
+	(wire
+		(pts
+			(xy 240.03 67.31) (xy 240.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "194077b0-5086-4d61-ba46-3c62044fb347")
+	)
+	(wire
+		(pts
+			(xy 87.63 143.51) (xy 87.63 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "1a6519ee-1ec2-4f96-8be2-2a6117f25344")
 	)
 	(wire
 		(pts
@@ -1401,6 +1840,28 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 109.22) (xy 240.03 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "1b418f28-27be-4059-b968-02e7527f40e6")
+	)
+	(wire
+		(pts
+			(xy 213.36 67.31) (xy 220.98 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "1b570d00-11e4-4cde-b9c3-fbdf35531b00")
+	)
+	(wire
+		(pts
 			(xy 88.9 25.4) (xy 106.68 25.4)
 		)
 		(stroke
@@ -1412,6 +1873,17 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 114.3) (xy 171.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1cfc8d2e-3cca-41bb-8864-c5ff972a18cd")
+	)
+	(wire
+		(pts
 			(xy 68.58 64.77) (xy 68.58 106.68)
 		)
 		(stroke
@@ -1420,6 +1892,17 @@
 			(color 0 132 0 1)
 		)
 		(uuid "1d5c5ecf-98f8-49c3-b7a5-590c538a3099")
+	)
+	(wire
+		(pts
+			(xy 194.31 67.31) (xy 201.93 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "1e1dea97-eee6-47f5-b252-db6d78672a42")
 	)
 	(wire
 		(pts
@@ -1455,6 +1938,39 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 33.02) (xy 106.68 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "22b70656-0b51-43d7-85f3-acc3825e49f1")
+	)
+	(wire
+		(pts
+			(xy 163.83 33.02) (xy 163.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "26c67347-2b6f-45ae-9fc0-dbc4cf72171f")
+	)
+	(wire
+		(pts
+			(xy 144.78 143.51) (xy 144.78 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "26f542b6-8543-40e8-9710-f60bb0956a62")
+	)
+	(wire
+		(pts
 			(xy 114.3 123.19) (xy 114.3 114.3)
 		)
 		(stroke
@@ -1466,7 +1982,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 38.1) (xy 228.6 38.1)
+			(xy 209.55 38.1) (xy 213.36 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1474,6 +1990,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "29782801-5cc4-40a8-b8cd-ceade5ee70c3")
+	)
+	(wire
+		(pts
+			(xy 137.16 38.1) (xy 152.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2a132219-e2ad-4870-9d67-d909ca5af199")
 	)
 	(wire
 		(pts
@@ -1488,6 +2015,17 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 109.22) (xy 201.93 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "2b5bb64c-e9ab-4218-9905-a60772e7fe4a")
+	)
+	(wire
+		(pts
 			(xy 68.58 25.4) (xy 88.9 25.4)
 		)
 		(stroke
@@ -1499,7 +2037,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 25.4) (xy 125.73 46.99)
+			(xy 125.73 25.4) (xy 125.73 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +2048,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 38.1) (xy 190.5 38.1)
+			(xy 171.45 38.1) (xy 175.26 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1542,7 +2080,18 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 114.3) (xy 228.6 114.3)
+			(xy 81.28 72.39) (xy 95.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2c4b0354-0af0-4989-82c0-c0fc0c2e8f47")
+	)
+	(wire
+		(pts
+			(xy 209.55 114.3) (xy 213.36 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1553,6 +2102,17 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 38.1) (xy 251.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2d8b70a7-5fd2-4f9b-9164-c2149650aa6b")
+	)
+	(wire
+		(pts
 			(xy 125.73 85.09) (xy 133.35 85.09)
 		)
 		(stroke
@@ -1560,6 +2120,17 @@
 			(type default)
 		)
 		(uuid "32099777-6a4e-4f66-943d-a26e691658ee")
+	)
+	(wire
+		(pts
+			(xy 247.65 72.39) (xy 251.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "3253f14a-01ac-4ab6-879c-56ffda5c8b60")
 	)
 	(wire
 		(pts
@@ -1585,7 +2156,29 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 25.4) (xy 88.9 46.99)
+			(xy 163.83 109.22) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "33fcda6e-4ad3-4f69-929e-e7889212234e")
+	)
+	(wire
+		(pts
+			(xy 175.26 114.3) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "34323365-7b91-49a3-85f1-853f90db2f6b")
+	)
+	(wire
+		(pts
+			(xy 88.9 25.4) (xy 88.9 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1606,7 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 25.4) (xy 259.08 46.99)
+			(xy 259.08 25.4) (xy 259.08 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1628,6 +2221,17 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 33.02) (xy 240.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "35ca3bba-90b9-4b87-97cb-945a8a4a5ba7")
+	)
+	(wire
+		(pts
 			(xy 163.83 50.8) (xy 171.45 50.8)
 		)
 		(stroke
@@ -1638,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 72.39) (xy 171.45 72.39)
+			(xy 152.4 72.39) (xy 156.21 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1670,7 +2274,18 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 106.68) (xy 125.73 123.19)
+			(xy 99.06 38.1) (xy 114.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "3936379c-b60e-4643-bc22-72dad42b9c48")
+	)
+	(wire
+		(pts
+			(xy 125.73 106.68) (xy 125.73 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1692,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 114.3) (xy 247.65 114.3)
+			(xy 228.6 114.3) (xy 232.41 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1713,6 +2328,17 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 67.31) (xy 259.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "3c022a5c-f1ac-48e4-96be-98efb2c55341")
+	)
+	(wire
+		(pts
 			(xy 152.4 46.99) (xy 152.4 38.1)
 		)
 		(stroke
@@ -1721,6 +2347,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "3c370f49-dd29-4809-8d9c-e7463e521455")
+	)
+	(wire
+		(pts
+			(xy 156.21 109.22) (xy 163.83 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "3c450c65-a416-4bd8-802c-1c892ef9e4e2")
 	)
 	(wire
 		(pts
@@ -1735,6 +2372,61 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 67.31) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "3c69bc1c-2e2e-4191-93a1-dce2b8f166f1")
+	)
+	(wire
+		(pts
+			(xy 99.06 33.02) (xy 106.68 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "3d6c0e6a-fe8e-4b41-86e9-9078375bd5a7")
+	)
+	(wire
+		(pts
+			(xy 99.06 143.51) (xy 106.68 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "3f772136-a370-4f97-be87-365c98de3403")
+	)
+	(wire
+		(pts
+			(xy 201.93 109.22) (xy 201.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "3fc541b8-acd2-4724-9eea-cb649e2bfe6d")
+	)
+	(wire
+		(pts
+			(xy 247.65 114.3) (xy 251.46 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "40859827-d94f-4bcd-a902-f8f5776fc45c")
+	)
+	(wire
+		(pts
 			(xy 152.4 123.19) (xy 152.4 114.3)
 		)
 		(stroke
@@ -1746,6 +2438,17 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 109.22) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "40fba9a2-b27d-4771-8d2d-5e01cdea718e")
+	)
+	(wire
+		(pts
 			(xy 144.78 106.68) (xy 163.83 106.68)
 		)
 		(stroke
@@ -1754,6 +2457,28 @@
 			(color 0 132 0 1)
 		)
 		(uuid "42e4b07b-3139-405d-b2bb-26f728fbd802")
+	)
+	(wire
+		(pts
+			(xy 194.31 114.3) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "45746b55-3fe3-4f12-a9b1-ed1280d186f9")
+	)
+	(wire
+		(pts
+			(xy 87.63 109.22) (xy 87.63 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "458fe83d-340d-4e97-949f-a9799d497dd9")
 	)
 	(wire
 		(pts
@@ -1779,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 38.1) (xy 209.55 38.1)
+			(xy 190.5 38.1) (xy 194.31 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1797,6 +2522,28 @@
 			(type default)
 		)
 		(uuid "48631acd-7d3a-4a25-abc7-8e7cfb41a623")
+	)
+	(wire
+		(pts
+			(xy 251.46 67.31) (xy 259.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "49ae116a-4229-4aa6-88f7-b7a9a5d3de89")
+	)
+	(wire
+		(pts
+			(xy 232.41 72.39) (xy 247.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4be9ca64-2748-46b1-a822-172ea549f912")
 	)
 	(wire
 		(pts
@@ -1822,6 +2569,28 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 38.1) (xy 95.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4db8fa0b-50ae-4344-bc2e-0b71f067f58e")
+	)
+	(wire
+		(pts
+			(xy 118.11 143.51) (xy 125.73 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "4e10f46f-3539-49bd-982c-315fd3090d22")
+	)
+	(wire
+		(pts
 			(xy 259.08 85.09) (xy 259.08 95.25)
 		)
 		(stroke
@@ -1832,7 +2601,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 25.4) (xy 68.58 25.4)
+			(xy 38.1 25.4) (xy 68.58 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1885,7 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 148.59) (xy 95.25 148.59)
+			(xy 76.2 148.59) (xy 81.28 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1893,6 +2662,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "56674c2d-3754-4750-9900-ac77c17f6e9c")
+	)
+	(wire
+		(pts
+			(xy 137.16 33.02) (xy 144.78 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "56be65c1-02b7-4dea-813c-b07c2459837c")
 	)
 	(wire
 		(pts
@@ -1982,7 +2762,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 140.97) (xy 163.83 157.48)
+			(xy 163.83 140.97) (xy 163.83 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2014,7 +2794,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 38.1) (xy 95.25 38.1)
+			(xy 74.93 38.1) (xy 81.28 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2025,14 +2805,80 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 25.4) (xy 50.8 25.4)
+			(xy 118.11 33.02) (xy 125.73 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 0 132 0 1)
 		)
-		(uuid "67660b69-7950-44d2-8144-1eb4c8e1a5a2")
+		(uuid "642933b9-b00f-4690-89e8-88284b0d8351")
+	)
+	(wire
+		(pts
+			(xy 251.46 33.02) (xy 259.08 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "651b052c-f476-456e-a8e4-5aa698fa8647")
+	)
+	(wire
+		(pts
+			(xy 194.31 33.02) (xy 201.93 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "654d0b4a-6103-487e-9a82-644ad65843e4")
+	)
+	(wire
+		(pts
+			(xy 99.06 148.59) (xy 114.3 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "66e70226-edc5-4670-896a-dc96c76be3e3")
+	)
+	(wire
+		(pts
+			(xy 125.73 143.51) (xy 125.73 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "672f4fc9-a5ab-4d0e-b264-93dc17140b05")
+	)
+	(wire
+		(pts
+			(xy 259.08 109.22) (xy 259.08 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "688bf841-666f-46f4-a938-d4b39c3288b2")
+	)
+	(wire
+		(pts
+			(xy 88.9 33.02) (xy 88.9 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "6941a976-3f3d-4c8b-bf0f-b3160813c118")
 	)
 	(wire
 		(pts
@@ -2047,6 +2893,17 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 109.22) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "69e64a7c-0058-4d5c-b836-293c9bd29a75")
+	)
+	(wire
+		(pts
 			(xy 133.35 157.48) (xy 133.35 148.59)
 		)
 		(stroke
@@ -2058,7 +2915,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 114.3) (xy 171.45 114.3)
+			(xy 152.4 114.3) (xy 156.21 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +2937,29 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 38.1) (xy 152.4 38.1)
+			(xy 156.21 143.51) (xy 163.83 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "70e14925-73c9-48d9-9bf9-c1474b3977ce")
+	)
+	(wire
+		(pts
+			(xy 220.98 67.31) (xy 220.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "7118bdb5-f6d0-405a-93e5-27f6c6899ea4")
+	)
+	(wire
+		(pts
+			(xy 133.35 38.1) (xy 137.16 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2099,6 +2978,17 @@
 			(color 0 132 0 1)
 		)
 		(uuid "732eb299-025d-4f86-abb9-cd6e8c4da100")
+	)
+	(wire
+		(pts
+			(xy 201.93 67.31) (xy 201.93 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "737fba86-3527-4b76-bb42-15dacf96ba5c")
 	)
 	(wire
 		(pts
@@ -2123,6 +3013,28 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 72.39) (xy 152.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "76290ee3-0148-4914-b057-4a8aafe2e294")
+	)
+	(wire
+		(pts
+			(xy 213.36 72.39) (xy 228.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "77824794-4d7a-4d59-b21a-ad14c269d047")
+	)
+	(wire
+		(pts
 			(xy 76.2 81.28) (xy 76.2 72.39)
 		)
 		(stroke
@@ -2131,6 +3043,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "77eb2b65-1694-4af9-9bf1-c1f34ab25271")
+	)
+	(wire
+		(pts
+			(xy 99.06 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "78e8a9ab-a4e3-4087-ac70-33aff11616a8")
 	)
 	(wire
 		(pts
@@ -2145,7 +3068,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 106.68) (xy 240.03 123.19)
+			(xy 240.03 106.68) (xy 240.03 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2153,6 +3076,17 @@
 			(color 0 132 0 1)
 		)
 		(uuid "7b50280d-24bd-4afc-a464-be73cc8388ad")
+	)
+	(wire
+		(pts
+			(xy 259.08 33.02) (xy 259.08 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "7cb54eb1-b83c-4274-acd3-64b3de2336d0")
 	)
 	(wire
 		(pts
@@ -2177,6 +3111,17 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 67.31) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "7e4b92d9-e542-49e0-bc1a-3210fceaee19")
+	)
+	(wire
+		(pts
 			(xy 106.68 127) (xy 114.3 127)
 		)
 		(stroke
@@ -2187,7 +3132,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 38.1) (xy 133.35 38.1)
+			(xy 114.3 38.1) (xy 118.11 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2198,7 +3143,18 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 64.77) (xy 125.73 81.28)
+			(xy 81.28 114.3) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "7ffb54d4-8235-4a93-997c-24c49586c4c1")
+	)
+	(wire
+		(pts
+			(xy 125.73 64.77) (xy 125.73 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +3165,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 25.4) (xy 163.83 46.99)
+			(xy 163.83 25.4) (xy 163.83 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2242,6 +3198,17 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 33.02) (xy 220.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "85e7c747-4aa0-4f4f-9c37-2962d088669a")
+	)
+	(wire
+		(pts
 			(xy 68.58 106.68) (xy 68.58 140.97)
 		)
 		(stroke
@@ -2260,6 +3227,17 @@
 			(type default)
 		)
 		(uuid "873d84fb-794f-472b-8528-6b0a8bf3df1c")
+	)
+	(wire
+		(pts
+			(xy 118.11 114.3) (xy 133.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "883f7aa6-d0dd-441a-94b7-cce722f0d363")
 	)
 	(wire
 		(pts
@@ -2285,7 +3263,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 114.3) (xy 152.4 114.3)
+			(xy 133.35 114.3) (xy 137.16 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2317,7 +3295,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 25.4) (xy 106.68 46.99)
+			(xy 106.68 25.4) (xy 106.68 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2349,7 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 72.39) (xy 190.5 72.39)
+			(xy 171.45 72.39) (xy 175.26 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2357,6 +3335,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "8c5028c8-15bb-4d50-bb45-bb7c96224dec")
+	)
+	(wire
+		(pts
+			(xy 106.68 143.51) (xy 106.68 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "8d4aaf04-a3f0-45f6-bada-867c47b671fb")
 	)
 	(wire
 		(pts
@@ -2371,7 +3360,18 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 25.4) (xy 201.93 46.99)
+			(xy 118.11 38.1) (xy 133.35 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "8efc203e-b8d1-40ea-8f26-05923b148bcd")
+	)
+	(wire
+		(pts
+			(xy 201.93 25.4) (xy 201.93 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2404,6 +3404,17 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 148.59) (xy 156.21 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9120bf6e-df81-4c17-b628-5efebfb09d91")
+	)
+	(wire
+		(pts
 			(xy 72.39 127) (xy 76.2 127)
 		)
 		(stroke
@@ -2424,7 +3435,40 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 106.68) (xy 144.78 123.19)
+			(xy 182.88 33.02) (xy 182.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "92ef5959-8dd1-44ab-86e1-86f820e11125")
+	)
+	(wire
+		(pts
+			(xy 213.36 114.3) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "94af28ce-db0f-4522-affd-9f418c86f8e8")
+	)
+	(wire
+		(pts
+			(xy 156.21 33.02) (xy 163.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "95ab32ab-e28c-4aba-bc3d-b2f0d86b6732")
+	)
+	(wire
+		(pts
+			(xy 144.78 106.68) (xy 144.78 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2435,7 +3479,18 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 140.97) (xy 87.63 157.48)
+			(xy 106.68 109.22) (xy 106.68 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "95ede77b-ebca-4e6a-bdbb-f3aec9b0ae16")
+	)
+	(wire
+		(pts
+			(xy 87.63 140.97) (xy 87.63 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2443,17 +3498,6 @@
 			(color 0 132 0 1)
 		)
 		(uuid "9614fe0a-6de1-41f1-9738-aaf6c6d3ccd7")
-	)
-	(wire
-		(pts
-			(xy 45.72 38.1) (xy 50.8 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "96bba70f-5380-4839-8f4e-b55c7a4f0a7e")
 	)
 	(wire
 		(pts
@@ -2478,6 +3522,17 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 114.3) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "981abd91-097f-4a73-9cbe-51217fe0bf93")
+	)
+	(wire
+		(pts
 			(xy 125.73 140.97) (xy 144.78 140.97)
 		)
 		(stroke
@@ -2489,7 +3544,40 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 72.39) (xy 228.6 72.39)
+			(xy 232.41 114.3) (xy 247.65 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9bb30f96-af68-4ff4-ae70-9c1b762f3b3c")
+	)
+	(wire
+		(pts
+			(xy 125.73 33.02) (xy 125.73 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "9c03c3cc-c8c1-46d2-8e6e-ff45b0cddcee")
+	)
+	(wire
+		(pts
+			(xy 144.78 109.22) (xy 144.78 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "a05cac45-cf9d-4232-9dfe-8c9b60556f31")
+	)
+	(wire
+		(pts
+			(xy 209.55 72.39) (xy 213.36 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2511,6 +3599,17 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 148.59) (xy 133.35 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a30f29a7-2565-424e-834a-270c719a5c0c")
+	)
+	(wire
+		(pts
 			(xy 125.73 25.4) (xy 144.78 25.4)
 		)
 		(stroke
@@ -2522,17 +3621,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 36.83) (xy 50.8 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4085a44-e4ce-4c44-bc5f-b639db6d7b24")
-	)
-	(wire
-		(pts
-			(xy 259.08 106.68) (xy 259.08 123.19)
+			(xy 259.08 106.68) (xy 259.08 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2543,7 +3632,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 38.1) (xy 62.23 38.1)
+			(xy 45.72 38.1) (xy 62.23 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2551,6 +3640,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "a872816c-1125-48f1-9dc4-980cfa0a6e05")
+	)
+	(wire
+		(pts
+			(xy 156.21 38.1) (xy 171.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a9acf81c-9610-4d33-9153-c9743ffd0542")
 	)
 	(wire
 		(pts
@@ -2565,7 +3665,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 148.59) (xy 152.4 148.59)
+			(xy 133.35 148.59) (xy 137.16 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2573,6 +3673,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "aae7e65b-9648-46d6-b4d9-c51024c7adb9")
+	)
+	(wire
+		(pts
+			(xy 213.36 33.02) (xy 220.98 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "ab5f3bdf-f1b2-4feb-9efb-87cf26bde092")
 	)
 	(wire
 		(pts
@@ -2597,6 +3708,50 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 67.31) (xy 125.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "af020f3b-8f0a-4c19-95b9-8de915a13a90")
+	)
+	(wire
+		(pts
+			(xy 81.28 109.22) (xy 87.63 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "af361113-077a-4612-b879-6fef18cd9662")
+	)
+	(wire
+		(pts
+			(xy 163.83 143.51) (xy 163.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "b077aa06-d756-4d6b-b7aa-6536469d64ff")
+	)
+	(wire
+		(pts
+			(xy 99.06 67.31) (xy 106.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "b0fa6bf9-a700-44ad-88ea-e4ca3dcb61a5")
+	)
+	(wire
+		(pts
 			(xy 190.5 123.19) (xy 190.5 114.3)
 		)
 		(stroke
@@ -2608,7 +3763,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 25.4) (xy 240.03 46.99)
+			(xy 240.03 25.4) (xy 240.03 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2619,7 +3774,18 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 25.4) (xy 220.98 46.99)
+			(xy 175.26 72.39) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b2cbff0e-7374-4c26-9940-84c931c751d6")
+	)
+	(wire
+		(pts
+			(xy 220.98 25.4) (xy 220.98 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2627,6 +3793,28 @@
 			(color 0 132 0 1)
 		)
 		(uuid "b2e7b6fc-c88a-4e6b-bc16-beffb622e3c5")
+	)
+	(wire
+		(pts
+			(xy 87.63 67.31) (xy 87.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "b2fadcbd-d63f-47f9-9b50-26a11d574722")
+	)
+	(wire
+		(pts
+			(xy 137.16 67.31) (xy 144.78 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "b43e3602-77aa-4895-80f3-782fec5248f5")
 	)
 	(wire
 		(pts
@@ -2641,7 +3829,18 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 140.97) (xy 106.68 157.48)
+			(xy 81.28 143.51) (xy 87.63 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "b61bf659-b62d-4f9b-9fa6-ddc0c82f1065")
+	)
+	(wire
+		(pts
+			(xy 106.68 140.97) (xy 106.68 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2672,7 +3871,18 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 106.68) (xy 182.88 123.19)
+			(xy 137.16 148.59) (xy 152.4 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b8a3ad0b-e610-4580-adeb-34fdaa71ff7f")
+	)
+	(wire
+		(pts
+			(xy 182.88 106.68) (xy 182.88 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2680,6 +3890,17 @@
 			(color 0 132 0 1)
 		)
 		(uuid "b8c5806c-4b17-44f2-ab1a-a0345e68b615")
+	)
+	(wire
+		(pts
+			(xy 232.41 109.22) (xy 240.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "ba599d7f-eb96-4859-98de-8069b93d4acd")
 	)
 	(wire
 		(pts
@@ -2704,7 +3925,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 38.1) (xy 247.65 38.1)
+			(xy 228.6 38.1) (xy 232.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2715,7 +3936,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 64.77) (xy 220.98 81.28)
+			(xy 220.98 64.77) (xy 220.98 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2726,17 +3947,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 26.67) (xy 50.8 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc666edb-7ed8-40ed-a5d2-bb03c76fbae5")
-	)
-	(wire
-		(pts
-			(xy 76.2 114.3) (xy 95.25 114.3)
+			(xy 76.2 114.3) (xy 81.28 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2779,7 +3990,18 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 72.39) (xy 152.4 72.39)
+			(xy 156.21 72.39) (xy 171.45 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "bede6aa7-8b37-4849-b79c-c3b66926b8bb")
+	)
+	(wire
+		(pts
+			(xy 133.35 72.39) (xy 137.16 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2790,7 +4012,18 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 140.97) (xy 144.78 157.48)
+			(xy 232.41 67.31) (xy 240.03 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "bfcd2760-a30f-40d1-b59b-fe06efd9998b")
+	)
+	(wire
+		(pts
+			(xy 144.78 140.97) (xy 144.78 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2801,7 +4034,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 64.77) (xy 87.63 81.28)
+			(xy 87.63 64.77) (xy 87.63 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2809,6 +4042,17 @@
 			(color 0 132 0 1)
 		)
 		(uuid "c43c4fd4-58f2-42fe-b534-32c631829394")
+	)
+	(wire
+		(pts
+			(xy 251.46 109.22) (xy 259.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "c48ebe6e-70ce-42c4-9187-97684c899117")
 	)
 	(wire
 		(pts
@@ -2844,7 +4088,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 148.59) (xy 114.3 148.59)
+			(xy 95.25 148.59) (xy 99.06 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2866,7 +4110,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 25.4) (xy 144.78 46.99)
+			(xy 144.78 25.4) (xy 144.78 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2877,7 +4121,18 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 64.77) (xy 201.93 81.28)
+			(xy 81.28 148.59) (xy 95.25 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "cce8e381-435a-4c42-b711-b085e6e15bff")
+	)
+	(wire
+		(pts
+			(xy 201.93 64.77) (xy 201.93 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2888,7 +4143,18 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 64.77) (xy 240.03 81.28)
+			(xy 194.31 38.1) (xy 209.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ce853f51-a0ba-4491-b481-d17928e406c9")
+	)
+	(wire
+		(pts
+			(xy 240.03 64.77) (xy 240.03 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2909,7 +4175,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 38.1) (xy 171.45 38.1)
+			(xy 152.4 38.1) (xy 156.21 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2917,6 +4183,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "d1ccef12-6ac8-4c0d-91bb-f089ca79b7e5")
+	)
+	(wire
+		(pts
+			(xy 81.28 33.02) (xy 88.9 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "d2a99705-7d3a-4ed5-a14e-c5538f00c621")
 	)
 	(wire
 		(pts
@@ -2931,7 +4208,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 114.3) (xy 114.3 114.3)
+			(xy 95.25 114.3) (xy 99.06 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2939,6 +4216,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "d3905474-59bd-42bc-be6a-f7dbddaac7a8")
+	)
+	(wire
+		(pts
+			(xy 118.11 72.39) (xy 133.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d3aa0de7-fa06-48f6-807c-ba44e9d62080")
 	)
 	(wire
 		(pts
@@ -2953,7 +4241,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 64.77) (xy 163.83 81.28)
+			(xy 163.83 64.77) (xy 163.83 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2972,6 +4260,17 @@
 			(color 0 132 0 1)
 		)
 		(uuid "d92639aa-368a-4a36-9220-cd5472a3e20f")
+	)
+	(wire
+		(pts
+			(xy 106.68 67.31) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "d95fe6ad-fe9e-4284-9a5d-2c617d963754")
 	)
 	(wire
 		(pts
@@ -2996,7 +4295,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 64.77) (xy 106.68 81.28)
+			(xy 106.68 64.77) (xy 106.68 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3004,6 +4303,17 @@
 			(color 0 132 0 1)
 		)
 		(uuid "db7bb5cd-8c71-4acd-aade-57de5db439d8")
+	)
+	(wire
+		(pts
+			(xy 213.36 109.22) (xy 220.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "dc509bce-14ce-4218-91a7-0d29d526c2d7")
 	)
 	(wire
 		(pts
@@ -3038,7 +4348,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 72.39) (xy 114.3 72.39)
+			(xy 95.25 72.39) (xy 99.06 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3049,7 +4359,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 64.77) (xy 182.88 81.28)
+			(xy 182.88 64.77) (xy 182.88 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3060,7 +4370,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 38.1) (xy 114.3 38.1)
+			(xy 95.25 38.1) (xy 99.06 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +4392,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 140.97) (xy 125.73 157.48)
+			(xy 125.73 140.97) (xy 125.73 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3114,7 +4424,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 106.68) (xy 220.98 123.19)
+			(xy 220.98 106.68) (xy 220.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3147,6 +4457,17 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 33.02) (xy 201.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "ec115670-903f-4a53-926b-f94a8c8e7349")
+	)
+	(wire
+		(pts
 			(xy 87.63 50.8) (xy 95.25 50.8)
 		)
 		(stroke
@@ -3157,7 +4478,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 72.39) (xy 133.35 72.39)
+			(xy 114.3 72.39) (xy 118.11 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3190,6 +4511,17 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 72.39) (xy 209.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ed45f0b4-d093-4826-8808-d3a87b156aa7")
+	)
+	(wire
+		(pts
 			(xy 68.58 25.4) (xy 68.58 64.77)
 		)
 		(stroke
@@ -3198,6 +4530,17 @@
 			(color 0 132 0 1)
 		)
 		(uuid "ee48078c-c146-480d-936f-0ce2d93bed99")
+	)
+	(wire
+		(pts
+			(xy 99.06 109.22) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "ee49fcbb-716b-484b-87f1-caada889221a")
 	)
 	(wire
 		(pts
@@ -3211,6 +4554,17 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 38.1) (xy 228.6 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "eebd5234-110c-4e7a-8b81-9a1851ad5c76")
+	)
+	(wire
+		(pts
 			(xy 144.78 127) (xy 152.4 127)
 		)
 		(stroke
@@ -3221,7 +4575,40 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 25.4) (xy 182.88 46.99)
+			(xy 118.11 67.31) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "ef61a092-45c5-4158-8db6-96ef859bc72b")
+	)
+	(wire
+		(pts
+			(xy 99.06 114.3) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "effce5d3-1bb8-42e3-b7c6-bbe76c6cdb27")
+	)
+	(wire
+		(pts
+			(xy 175.26 38.1) (xy 190.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f005e7df-962c-42f6-9bc2-e928355ea692")
+	)
+	(wire
+		(pts
+			(xy 182.88 25.4) (xy 182.88 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3232,7 +4619,29 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 64.77) (xy 259.08 81.28)
+			(xy 81.28 67.31) (xy 87.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "f117a219-5f03-49eb-9eeb-3f607e31f205")
+	)
+	(wire
+		(pts
+			(xy 163.83 67.31) (xy 163.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "f357debe-a85e-4e6b-9ae4-a5f991503756")
+	)
+	(wire
+		(pts
+			(xy 259.08 64.77) (xy 259.08 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3263,7 +4672,18 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 64.77) (xy 144.78 81.28)
+			(xy 118.11 109.22) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "f74bc732-8e8f-447c-aaf2-d5a53a0f6797")
+	)
+	(wire
+		(pts
+			(xy 144.78 64.77) (xy 144.78 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3284,7 +4704,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 72.39) (xy 209.55 72.39)
+			(xy 190.5 72.39) (xy 194.31 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3305,7 +4725,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 106.68) (xy 163.83 123.19)
+			(xy 163.83 106.68) (xy 163.83 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3335,6 +4755,28 @@
 			(color 255 0 0 1)
 		)
 		(uuid "fec94407-65ea-4f59-ad66-71588e4d2ada")
+	)
+	(wire
+		(pts
+			(xy 182.88 67.31) (xy 182.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "ffbdb066-beff-43b5-9798-7056beb8e4e0")
+	)
+	(wire
+		(pts
+			(xy 175.26 33.02) (xy 182.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "ffde2ac2-eda4-4a08-98f3-b9cb3ebe69ca")
 	)
 	(hierarchical_label "5v"
 		(shape input)
@@ -3471,7 +4913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_EC15_1.5x1.5mm"
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 72.898 167.64 0)
 			(effects
 				(font
@@ -3516,6 +4958,75 @@
 			(project "Roto-Pad-2.0"
 				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
 					(reference "LED31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 251.46 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09be6c5a-4aec-4654-9e62-104ee575c7c1")
+		(property "Reference" "C39"
+			(at 248.412 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 248.412 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 255.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 251.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d07e3ca7-fc59-4a86-ac13-561028b9e565")
+		)
+		(pin "2"
+			(uuid "667023cf-de2b-42cb-b4ae-d1f81837d63a")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -3623,7 +5134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_EC15_1.5x1.5mm"
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 91.948 167.64 0)
 			(effects
 				(font
@@ -3668,6 +5179,75 @@
 			(project "Roto-Pad-2.0"
 				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
 					(reference "LED32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 232.41 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12fe36c2-c46d-4150-a1ab-91174847578d")
+		(property "Reference" "C38"
+			(at 229.362 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 229.362 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 236.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 232.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a4fb707-6053-409e-add8-909e7af25c80")
+		)
+		(pin "2"
+			(uuid "b76c2e7f-c75a-43f5-bc50-394576a8b66f")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -3826,6 +5406,75 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 213.36 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "209bb0b0-f6e0-4064-a497-3a9011dc4dec")
+		(property "Reference" "C27"
+			(at 210.312 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 210.312 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 217.17 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6873071d-42ff-4243-b4f8-d168676009fa")
+		)
+		(pin "2"
+			(uuid "923e7f41-2e0a-414c-b82b-338a0245c573")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:SK6812")
 		(at 83.82 85.09 0)
 		(unit 1)
@@ -3902,6 +5551,75 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 81.28 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a1c3065-0bb6-46e3-8d03-3793a780db93")
+		(property "Reference" "C40"
+			(at 78.232 143.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 78.232 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 85.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 81.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54680c34-8acf-4f82-8af9-7a79992f268e")
+		)
+		(pin "2"
+			(uuid "bb4e550e-f6a3-4cf9-833a-f9cdf81cb0d0")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:SK6812")
 		(at 121.92 161.29 0)
 		(unit 1)
@@ -3927,7 +5645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_EC15_1.5x1.5mm"
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 110.998 167.64 0)
 			(effects
 				(font
@@ -4003,7 +5721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_EC15_1.5x1.5mm"
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 168.148 133.35 0)
 			(effects
 				(font
@@ -4155,7 +5873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_EC15_1.5x1.5mm"
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 130.048 167.64 0)
 			(effects
 				(font
@@ -4200,93 +5918,6 @@
 			(project "Roto-Pad-2.0"
 				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
 					(reference "LED34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:C-polar")
-		(at 50.8 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37a74de3-cc38-4ed0-bf9e-f00f26f9549b")
-		(property "Reference" "C1"
-			(at 54.61 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C-polar 1000uf"
-			(at 43.18 29.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitors:NIC_10X10.5_CAP"
-			(at 50.8 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, polar(ized)"
-			(at 50.8 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 54.61 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Rating" "V"
-			(at 54.61 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "5a1599ce-93a2-4e1a-8ab7-674a11e5c66c")
-		)
-		(pin "2"
-			(uuid "d3092a91-e4b2-4962-8c2a-3f0f690c20d7")
-		)
-		(instances
-			(project ""
-				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4369,6 +6000,213 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 156.21 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d5c4deb-2ca9-4820-88aa-2e63c98961ca")
+		(property "Reference" "C44"
+			(at 153.162 143.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 153.162 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 160.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 156.21 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d05b326-a620-4df5-b41e-5cd0e5ae3a62")
+		)
+		(pin "2"
+			(uuid "4906296d-c9a8-467c-ab1c-f71eea1b34a5")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 213.36 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e582c3f-09ce-45c3-9416-e644189c137a")
+		(property "Reference" "C17"
+			(at 210.312 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 210.312 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 217.17 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 213.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53e817e5-bd9c-4163-b7c4-261eb2983f2c")
+		)
+		(pin "2"
+			(uuid "3d3ac423-b6f5-4488-bdbd-018bc2e77232")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 81.28 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ee9eda5-a37b-45c6-94d4-47334e383652")
+		(property "Reference" "C30"
+			(at 76.962 109.982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 78.232 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 85.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18c7508a-11af-41a7-baf4-032c83aa61aa")
+		)
+		(pin "2"
+			(uuid "b47b03ef-6c45-4201-9636-90c1723909f1")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:SK6812")
 		(at 198.12 85.09 0)
 		(unit 1)
@@ -4445,6 +6283,144 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 137.16 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40e17f68-ccc1-4762-9d6a-ba751a2ae593")
+		(property "Reference" "C43"
+			(at 134.112 143.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 134.112 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 140.97 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 137.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6390f17f-29eb-4f16-aa96-9277b66fa0d5")
+		)
+		(pin "2"
+			(uuid "4dbd03b1-9564-4808-9691-2f6ac117b392")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 156.21 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44bcceb3-4370-408a-84fa-23b4c93008b2")
+		(property "Reference" "C24"
+			(at 153.162 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 153.162 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 160.02 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 156.21 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f32f734e-e1d5-44fc-86dd-ddbfeb5088dd")
+		)
+		(pin "2"
+			(uuid "4cce255a-a29e-4167-83a7-76b53276f47d")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:SK6812")
 		(at 255.27 85.09 0)
 		(unit 1)
@@ -4515,6 +6491,213 @@
 			(project "Roto-Pad-2.0"
 				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
 					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 99.06 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "484e2cd8-6f91-48ce-8b44-028e249bcc8d")
+		(property "Reference" "C3"
+			(at 96.012 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 96.012 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 102.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 99.06 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e4c3c54-da64-47d7-bce3-bfcd29b065d0")
+		)
+		(pin "2"
+			(uuid "e04501e1-7ba2-43a3-a09c-1be0feee101e")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 232.41 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4949d052-1b2d-4831-8e0c-b1c76b19f807")
+		(property "Reference" "C18"
+			(at 229.362 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 229.362 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 232.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcc09d5b-2b78-48e3-80be-e4ba43aeef40")
+		)
+		(pin "2"
+			(uuid "253e3ecd-a379-4133-8fba-a7bdd11c0655")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 137.16 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a0abc30-70ea-4eac-ad26-a51152196e45")
+		(property "Reference" "C13"
+			(at 134.112 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 134.112 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 140.97 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 137.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b1c718d-da80-481a-9ddd-c16f050f4e2e")
+		)
+		(pin "2"
+			(uuid "c587e9ae-fb92-432c-a8e5-bc5f58bf8053")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4673,6 +6856,75 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 251.46 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5db4a5ca-0ab9-4b4c-9e8c-ad557d92366e")
+		(property "Reference" "C19"
+			(at 248.412 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 248.412 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 255.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d61a15f-055e-49cb-8c80-ab6109794d45")
+		)
+		(pin "2"
+			(uuid "2a3aaa6b-b2ed-4142-8a46-8ee6aeb12be3")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:SK6812")
 		(at 102.87 127 0)
 		(unit 1)
@@ -4743,6 +6995,75 @@
 			(project "Roto-Pad-2.0"
 				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
 					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 118.11 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "614c3e36-e8ea-4e69-9c12-0d778af79b53")
+		(property "Reference" "C42"
+			(at 115.062 143.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 115.062 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 121.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 118.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "632b41fd-1c35-4933-acd8-a7f853557d89")
+		)
+		(pin "2"
+			(uuid "47283174-190d-43b1-8253-ce33ae68f4cc")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -4825,6 +7146,144 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 175.26 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6db767fe-a7ae-4a25-92fb-e6fc6765c4ff")
+		(property "Reference" "C25"
+			(at 172.212 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 172.212 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 175.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af783b12-ec02-478d-a82c-224f78abbb8b")
+		)
+		(pin "2"
+			(uuid "8d96c1da-3ffe-43dd-b877-55348b1d5375")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 156.21 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f426cb8-2c23-471b-82d6-8a0e15f29c19")
+		(property "Reference" "C14"
+			(at 153.162 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 153.162 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 160.02 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73348195-8e98-4352-8a70-3eb0909d4723")
+		)
+		(pin "2"
+			(uuid "cf44d5d2-0630-41cc-93f5-3ad1c85fdb1a")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:SK6812")
 		(at 217.17 127 0)
 		(unit 1)
@@ -4850,7 +7309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_EC15_1.5x1.5mm"
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 206.248 133.35 0)
 			(effects
 				(font
@@ -4895,6 +7354,75 @@
 			(project "Roto-Pad-2.0"
 				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
 					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 118.11 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8981ed6f-9bdc-4690-ba04-551c1c652a00")
+		(property "Reference" "C4"
+			(at 115.062 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 115.062 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 118.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "886226c4-5093-40c5-abe8-8a4958129510")
+		)
+		(pin "2"
+			(uuid "588f76b0-3065-40b0-a176-79cc42564af0")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4971,6 +7499,75 @@
 			(project "Roto-Pad-2.0"
 				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
 					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 137.16 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e53e914-ca10-4fac-91e4-86c75bb25bce")
+		(property "Reference" "C23"
+			(at 134.112 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 134.112 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d59cc4a4-9095-4056-81fe-1b5053eb5c4e")
+		)
+		(pin "2"
+			(uuid "d39bdcba-ec27-41b4-a423-a29a3bfc6be7")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -5225,6 +7822,75 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 81.28 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a37195f0-c4a3-4ffe-8f4c-8604b66cf4a0")
+		(property "Reference" "C2"
+			(at 78.232 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF"
+			(at 78.232 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 85.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 81.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1420d21-7b36-412d-a036-36ab8f1ea8c4")
+		)
+		(pin "2"
+			(uuid "c1d9275d-86db-42bc-8aea-8e99c2d3201b")
+		)
+		(instances
+			(project ""
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:SK6812")
 		(at 217.17 85.09 0)
 		(unit 1)
@@ -5402,7 +8068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_EC15_1.5x1.5mm"
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 244.348 133.35 0)
 			(effects
 				(font
@@ -5453,6 +8119,75 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 118.11 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa44c69d-ae0b-410f-a443-c0f897a27421")
+		(property "Reference" "C22"
+			(at 115.062 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 115.062 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5e7498b-a66d-42fc-ad77-56e3e06e3780")
+		)
+		(pin "2"
+			(uuid "5853bd6d-7c36-496f-a6c5-55c8ec6e25f0")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:SK6812")
 		(at 236.22 127 0)
 		(unit 1)
@@ -5478,7 +8213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_EC15_1.5x1.5mm"
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 225.298 133.35 0)
 			(effects
 				(font
@@ -5605,6 +8340,144 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 99.06 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b33c558b-eecf-4eba-bfdf-8b60ab1c0a53")
+		(property "Reference" "C31"
+			(at 96.012 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 96.012 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 99.06 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e36f90c1-89eb-42d9-b7b1-2686d713b35b")
+		)
+		(pin "2"
+			(uuid "c992a3cb-5c27-439a-993a-0c306783ec38")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 194.31 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b65c0f1a-767f-4f72-9466-cc6f89f743f8")
+		(property "Reference" "C26"
+			(at 191.262 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 191.262 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 198.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 194.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfa57022-e792-416b-9bd3-cc31765bbdd5")
+		)
+		(pin "2"
+			(uuid "49500e0f-c34c-4d2a-a734-c13e64b33a28")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:SK6812")
 		(at 160.02 127 0)
 		(unit 1)
@@ -5706,7 +8579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_EC15_1.5x1.5mm"
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 149.098 167.64 0)
 			(effects
 				(font
@@ -5751,6 +8624,75 @@
 			(project "Roto-Pad-2.0"
 				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
 					(reference "LED35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 137.16 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd6f3831-f16c-4b2e-b666-2635d10318f1")
+		(property "Reference" "C33"
+			(at 134.112 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 134.112 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 140.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15e4ca9d-d0fe-40cb-9138-272bf9ba72e0")
+		)
+		(pin "2"
+			(uuid "8d508777-5f49-487e-bb6e-15660159b821")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -5833,6 +8775,420 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 156.21 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c242ca01-921b-4b15-ba09-9fa65fb19307")
+		(property "Reference" "C34"
+			(at 153.162 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 153.162 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 156.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "854ff00b-ebef-4463-ade6-fe959b29d942")
+		)
+		(pin "2"
+			(uuid "efd099ff-83ca-4379-a72b-1058b58407b1")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 175.26 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb15c464-13e1-4f1a-bc82-dfcc9bf7fef3")
+		(property "Reference" "C35"
+			(at 172.212 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 172.212 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 179.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ee363f5-fdb1-4b30-9f47-718511b7c113")
+		)
+		(pin "2"
+			(uuid "2246b75e-e138-4596-a760-825e17523971")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 194.31 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ced5c78b-1831-470d-b562-ae7c61cd22d6")
+		(property "Reference" "C16"
+			(at 191.262 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 191.262 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 198.12 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 194.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81dc8ff4-e763-424f-bca7-3f673d852d54")
+		)
+		(pin "2"
+			(uuid "a255282a-84fe-4b9b-86cc-211e60155473")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 175.26 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d516df19-6e85-4a21-882d-f1c41c35d58f")
+		(property "Reference" "C15"
+			(at 172.212 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 172.212 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 179.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 175.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fe47a58-1597-4cd2-a978-bf03e45b417a")
+		)
+		(pin "2"
+			(uuid "e2e2ba1a-9ec1-49f8-bc04-6fa1cbb110e1")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 118.11 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd7bf62c-9c67-453c-be4c-17b9fc5cc54b")
+		(property "Reference" "C32"
+			(at 115.062 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 115.062 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "410f40b0-97ec-4aed-81de-3170ef89963b")
+		)
+		(pin "2"
+			(uuid "14d575cc-386b-4664-b064-710619b9f343")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 99.06 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dda4c923-93ad-45cc-a6d5-44437f9391d6")
+		(property "Reference" "C21"
+			(at 96.012 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 96.012 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 102.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 99.06 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c3a88b1-1025-47cc-a83a-ecac1c79d7a9")
+		)
+		(pin "2"
+			(uuid "b41c4465-2e5f-4671-b00c-3957fb52a61e")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:SK6812")
 		(at 236.22 50.8 0)
 		(unit 1)
@@ -5909,6 +9265,75 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 194.31 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "def46d28-5e90-49c2-8206-81dd777ad40d")
+		(property "Reference" "C36"
+			(at 191.262 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 191.262 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fb5b51f-4f0c-4fd0-9c20-488a03d48bd2")
+		)
+		(pin "2"
+			(uuid "fcdd98b5-ec1d-40db-8d74-b90e3c0c4faa")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:SK6812")
 		(at 198.12 127 0)
 		(unit 1)
@@ -5934,7 +9359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_EC15_1.5x1.5mm"
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 187.198 133.35 0)
 			(effects
 				(font
@@ -5979,6 +9404,75 @@
 			(project "Roto-Pad-2.0"
 				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
 					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 99.06 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfee40d2-6df6-4709-a8b9-344a2bc54330")
+		(property "Reference" "C41"
+			(at 96.012 143.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 96.012 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 102.87 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 99.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eafff7c1-c71e-44f8-91cd-229ebdf9295b")
+		)
+		(pin "2"
+			(uuid "279c2c69-7520-41b4-9344-6bfaa52736f8")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -6207,6 +9701,282 @@
 			(project "Roto-Pad-2.0"
 				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
 					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 81.28 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f070bbee-8b13-4a12-99a2-ad696ae4c00b")
+		(property "Reference" "C20"
+			(at 78.232 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 78.232 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 85.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 81.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3cfec97-8e1c-450b-a6b0-09e34f2992c0")
+		)
+		(pin "2"
+			(uuid "dd209a7d-72ae-4049-8e85-71c70d890405")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 232.41 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa09f9ee-ae6b-4216-99e9-263d368cfb2d")
+		(property "Reference" "C28"
+			(at 229.362 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 229.362 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 232.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b30c26c-3aa8-4b9c-b00e-8f8cad30488e")
+		)
+		(pin "2"
+			(uuid "a7cb9451-2262-4dbc-975b-edf9a41336e7")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 251.46 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe34c1d7-0a61-4b2b-9065-74bbb8895d58")
+		(property "Reference" "C29"
+			(at 248.412 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 248.412 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 255.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 251.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64db92a9-c029-4850-924e-96d00955fc73")
+		)
+		(pin "2"
+			(uuid "2835603f-5b94-40f1-bb7b-0286b2b572a3")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:Capacitor_NP")
+		(at 213.36 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff8d33de-2047-4a73-bf60-37d97e297d13")
+		(property "Reference" "C37"
+			(at 210.312 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Capacitor"
+			(at 210.312 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors:0805"
+			(at 217.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b820809d-e6ae-437a-9bb9-de0a20496a36")
+		)
+		(pin "2"
+			(uuid "e6fdd14f-0c47-4e6a-8c33-7e884fe0a961")
+		)
+		(instances
+			(project "Roto-Pad-2.0"
+				(path "/622bd3c1-8654-462c-8dbc-ad4a9f896355/5d0db11c-625d-4ecf-b8a6-38a71135ffdd"
+					(reference "C37")
 					(unit 1)
 				)
 			)
